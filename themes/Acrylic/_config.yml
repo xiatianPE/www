@@ -10,7 +10,7 @@
 site:
   name:                   # 左上角显示内容
     class:  text          #i_class/text/img 
-    custom: Acrylic       #自定义内容
+    custom: 洵珊小站      #自定义内容
   siteIcon: /img/avatar.webp # 网页icon
   icon: /img/avatar.webp     # 页脚的icon、加载动画默认的icon
   icp:                       # ICP
@@ -242,7 +242,7 @@ post:
     local: false  
 
 # 关于界面
-about: false
+about: true
 
 # 404页面
 errorpage:
