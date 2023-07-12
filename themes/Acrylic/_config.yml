@@ -60,7 +60,7 @@ nav:
 
 # heo式顶部一大坨
 hometop:
-  bbtime: true
+  bbtime: false
   banner:
     title: 分享设计<br>与科技生活
     url: blog.zhheo.com
