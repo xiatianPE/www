@@ -67,8 +67,8 @@ hometop:
     url: xiatianpe.github.io/
     icon:
       AE:
-      img: /img/icon/ae.png
-      color: '#989bf8'
+        img: /img/icon/ae.png
+        color: '#989bf8'
       # Sketch:
       #   img: /img/icon/Sketch.png
       #   color: '#ffffff'
