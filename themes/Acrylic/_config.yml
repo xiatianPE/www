@@ -9,7 +9,7 @@
 # 站点设置
 site:
   name:                   # 左上角显示内容
-    class:  text          #i_class/text/img 
+    class:  洵珊          #i_class/text/img 
     custom: Acrylic       #自定义内容
   siteIcon: /img/avatar.webp # 网页icon
   icon: /img/avatar.webp     # 页脚的icon、加载动画默认的icon
@@ -63,12 +63,12 @@ hometop:
   bbtime: false
   banner:
     enable: true
-    title: 分享设计<br>与科技生活
-    url: blog.zhheo.com
+    title: 分享<br>与科技生活
+    url: xiatianpe.github.io/
     icon:
-      # AE:
-      #   img: /img/icon/ae.png
-      #   color: '#989bf8'
+      AE:
+      img: /img/icon/ae.png
+      color: '#989bf8'
       # Sketch:
       #   img: /img/icon/Sketch.png
       #   color: '#ffffff'
