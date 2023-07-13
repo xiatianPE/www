@@ -60,7 +60,7 @@ nav:
 
 # heo式顶部一大坨
 hometop:
-  bbtime: false
+  bbtime: true
   banner:
     enable: true
     title: 分享<br>与科技生活
