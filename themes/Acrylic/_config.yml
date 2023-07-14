@@ -10,7 +10,7 @@
 site:
   name:                   # 左上角显示内容
     class:  text          #i_class/text/img 
-    custom: Acrylic       #自定义内容
+    custom: 洵珊      #自定义内容
   siteIcon: /img/avatar.webp # 网页icon
   icon: /img/avatar.webp     # 页脚的icon、加载动画默认的icon
   icp:                       # ICP
@@ -63,12 +63,12 @@ hometop:
   bbtime: false
   banner:
     enable: true
-    title: 分享设计<br>与科技生活
-    url: blog.zhheo.com
+    title: 分享<br>与科技生活
+    url: https://xiatianpe.github.io
     icon:
-      # AE:
-      #   img: /img/icon/ae.png
-      #   color: '#989bf8'
+        AE:
+          img: /img/icon/ae.png
+          color: '#989bf8'
       # Sketch:
       #   img: /img/icon/Sketch.png
       #   color: '#ffffff'
@@ -105,14 +105,10 @@ hometop:
 
   categoryGroup:
     G1:
-      name: Acrylic
-      icon: fas fa-dove
-      url: /tags/Acrylic/
-    G2:
       name: 热门文章
       icon: fas fa-burn
       url: /tags/热门/
-    G3:
+    G2:
       name: 实用教程
       icon: fas fa-book
       url: /tags/教程/
@@ -222,7 +218,7 @@ page:
 post:
   default:
     cover: /img/hello.jpg
-    locate: 北京
+    locate:湛江
     copyright: 原创
   meta:
     date: true
@@ -295,9 +291,9 @@ thirdparty:
 
 # 评论
 comment:
-  enable: false
+  enable: true
   twikoo:
-    envId:
+    envId: https://pian.zeabur.app
     # region: ap-shanghai
     path: window.location.pathname
 
