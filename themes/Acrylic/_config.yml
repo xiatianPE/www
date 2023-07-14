@@ -297,7 +297,7 @@ thirdparty:
 comment:
   enable: true
   twikoo:
-    envId: 
+    envId: https://pian.zeabur.app
     # region: ap-shanghai
     path: window.location.pathname
 
