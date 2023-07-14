@@ -297,7 +297,7 @@ thirdparty:
 comment:
   enable: true
   twikoo:
-    envId: https://waline-1-i3854234.deta.app/
+    envId: 
     # region: ap-shanghai
     path: window.location.pathname
 
@@ -345,3 +345,4 @@ cdn:
     aplayercss: https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/aplayer/1.10.1/APlayer.min.css
     aplayerjs: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/aplayer/1.10.1/APlayer.min.js
     metingjs: https://cdn1.tianli0.top/npm/meting@2.0.1/dist/Meting.min.js
+    walinejs: /js/waline.js
