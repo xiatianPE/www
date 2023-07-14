@@ -21,10 +21,10 @@ nav:
   left:
 enable: true #开启左侧应用菜单栏
 menu: #左侧应用菜单栏内的内容
-    我的: #一级分类
-        博客: #链接名称
-            icon: /img/avatar.webp #链接图片
-            url: /
+    #我的: #一级分类
+     #   博客: #链接名称
+       #     icon: /img/avatar.webp #链接图片
+        #    url: /
 
       
       
