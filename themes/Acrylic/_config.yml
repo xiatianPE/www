@@ -233,7 +233,7 @@ post:
     local: false  
 
 # 关于界面
-about: true
+about: false
 
 # 404页面
 errorpage:
