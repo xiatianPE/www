@@ -222,7 +222,7 @@ page:
 post:
   default:
     cover: /img/hello.jpg
-    locate: 北京
+    locate: 湛江
     copyright: 原创
   meta:
     date: true
@@ -295,9 +295,9 @@ thirdparty:
 
 # 评论
 comment:
-  enable: false
+  enable: true
   twikoo:
-    envId:
+    envId: https://pian.zeabur.app
     # region: ap-shanghai
     path: window.location.pathname
 
