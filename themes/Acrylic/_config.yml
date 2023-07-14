@@ -98,7 +98,7 @@ hometop:
       #   img: /img/icon/git.png
       #   color: '#df5b40'
 
-  categoryGroup：
+  categoryGroup:
     G1:
       name: 热门文章
       icon: fas fa-burn
