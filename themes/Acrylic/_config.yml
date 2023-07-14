@@ -60,15 +60,15 @@ nav:
 
 # heo式顶部一大坨
 hometop:
-  bbtime: false
+  bbtime: true
   banner:
     enable: true
     title: 分享设计<br>与科技生活
-    url: blog.zhheo.com
+    url: xiatianpe.github.io
     icon:
-      # AE:
-      #   img: /img/icon/ae.png
-      #   color: '#989bf8'
+        AE:
+          img: /img/icon/ae.png
+          color: '#989bf8'
       # Sketch:
       #   img: /img/icon/Sketch.png
       #   color: '#ffffff'
