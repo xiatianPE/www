@@ -159,17 +159,17 @@ aside:
 
   toc: 
     post: true
-    page: false
+    page: true
 
   # 建站时间
   siteinfo:
     postcount: true
-    wordcount: false
-    pv: false
-    uv: false
-    updatetime: false
+    wordcount: true
+    pv: true
+    uv: true
+    updatetime: true
     runtimeenable: true
-    runtime: '2021-12-12 00:00:00'
+    runtime: '2023-05-12 00:00:00'
 
 # 页脚
 footer:
@@ -220,7 +220,7 @@ page:
 post:
   default:
     cover: /img/hello.jpg
-    locate: 北京
+    locate: 湛江
     copyright: 原创
   meta:
     date: true
