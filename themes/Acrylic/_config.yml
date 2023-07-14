@@ -297,7 +297,7 @@ thirdparty:
 comment:
   enable: true
   twikoo:
-    envId:
+    envId:https://waline-1-i3854234.deta.app/
     # region: ap-shanghai
     path: window.location.pathname
 
