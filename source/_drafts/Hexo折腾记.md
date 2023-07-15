@@ -22,3 +22,7 @@ updated: 2023-7-15T12:2:2.46+8:0
 于是我就想魔改一下，于是我就看到了 [Butterfly主题美化教程](https://butterfly.zhheo.com/) 里面有魔改的主题让我非常喜欢就是
 
 [张洪Heo](https://blog.zhheo.com/)刚开始以为需要动手改没想到竟然没有教程。就当我想放弃的时候，却发现有人出了主题😀 [Hexo-Theme-Acrylic-Next](https://github.com/hexo-theme-Acrylic/Hexo-Theme-Acrylic-Next)
+
+由于主题还年轻，所以支持东西不多，但能用就行！于是我就安装了
+
+前面说了我只能用手机，所以只能用手机上传到GitHub
