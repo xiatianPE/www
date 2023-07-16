@@ -8,9 +8,9 @@ excerpt: 前言 由于没有电脑，只能用手机写文章所以部分效果
 tags:
 - 折腾
 - 闲聊
-title: Hexo折腾记
+title: Hexo主题折腾记
 top_img : https://i.imgtg.com/2023/07/13/Ozyy1G.webp
-updated: 2023-7-16T10:48:52.379+8:0
+updated: 2023-7-16T11:7:23.821+8:0
 ---
 ## 前言
 
