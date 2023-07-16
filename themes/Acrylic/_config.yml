@@ -23,33 +23,36 @@ menu: #左侧应用菜单栏内的内容
     我的: #一级分类
         博客: #链接名称
             icon: /img/avatar.webp #链接图片
-            url: / #链接Url
-            
-  menu:
-      文库:
-        url: false
+            url: / #链接Url      
+menu:
+    文库:
+       url: false
+       child:
+           文章列表:
+               url: /archives/
+               icon: fas fa-box-archive
+           全部分类:
+              url: /categories/
+              icon: fas fa-cube
+           全部标签:
+              url: /tags/
+              icon: fas fa-tags
+    友链:
+       url: false
+       child:
+           友链鱼塘:
+              url: /fcircle/
+              icon: fas fa-fish-fins
+           友情链接:
+              url: /links/
+              icon: fas fa-user-group
+           宝藏博主:
+              url: javascript:travelling()
+              icon: fas fa-bus
+    即刻:
+        url: /says #使用一级菜单，关闭二级菜单，点击后跳转到/says
         child:
-          文章列表:
-            url: /archives/
-            icon: fas fa-box-archive
-          全部分类:
-            url: /categories/
-            icon: fas fa-cube
-          全部标签:
-            url: /tags/
-            icon: fas fa-tags
-      友链:
-        url: false
-        child:
-          友链鱼塘:
-            url: /fcircle/
-            icon: fas fa-fish-fins
-          友情链接:
-            url: /links/
-            icon: fas fa-user-group
-          宝藏博主:
-            url: javascript:travelling()
-            icon: fas fa-bus
+
 
 # 导航栏右侧快捷菜单
   right: # @todo 允许用户自定义
