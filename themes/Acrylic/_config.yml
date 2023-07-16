@@ -18,7 +18,7 @@ site:
 # 导航栏
 nav:
 #导航栏左侧
-  left:
+left:
 enable: true
 menu: #左侧应用菜单栏内的内容
     我的: #一级分类
