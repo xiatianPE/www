@@ -52,9 +52,7 @@ menu: #左侧应用菜单栏内的内容
         url: /says #使用一级菜单，关闭二级菜单，点击后跳转到/says
         child:
 
-
-# 导航栏右侧快捷菜单
-  right: # @todo 允许用户自定义
+right: # @todo 允许用户自定义
     travellings: true   #开往
     random: true        #
     console: true       #控制台
