@@ -1,149 +1,60 @@
 ---
 abbrlink: ''
 categories:
-- - 折腾记
-cover: https://i.imgtg.com/2023/04/29/3efV1.png
-date: '2023-04-29 11:58:32'
+- - 折腾
+cover: https://i.imgtg.com/2023/07/13/Ozyy1G.webp
+date: '2023-07-13T20:55:42.328981+08:00'
+excerpt: 前言 由于没有电脑，只能用手机写文章所以部分效果没有看到，请见谅！ 主题的安装 原先是使用Butterfly主题的，但是用久了后界面也就看腻了。 于是我就想魔改一下，于是我就看到了 Butterfly主题美化教程 里面有魔改的主题让我非常喜欢就是 张洪Heo刚开始以为需要动手改没想到竟然没有教程。就当我想放弃的时候，却发现有人出了主题😀 Hexo-Theme-Acrylic-Next 由于主题还...
 tags:
 - 折腾
+- 闲聊
 title: Hexo折腾记
-top_img: https://i.imgtg.com/2023/04/29/3efV1.png
-updated: Sat, 29 Apr 2023 06:30:43 GMT
+top_img : https://i.imgtg.com/2023/07/13/Ozyy1G.webp
+updated: 2023-7-16T10:48:52.379+8:0
 ---
 ## 前言
 
-大概是2022年的时候，我想搭建一个博客可是看了许多博客的框架就是找不到适合我的比如
+由于没有电脑，只能用手机写文章所以部分效果没有看到，请见谅！
 
-WordPress它虽然好但是需要部署在动态服务器上，我没有太多钱去续费服务器免费的话也有一定的限制所以我不太喜欢。思来想去我看到了静态博客hexo，虽然没有后台但可以以后部署一个后台，那让我们一起来部署hexo吧
+## 主题的安装
 
-## 配置环境
+原先是使用Butterfly主题的，但是用久了后界面也就看腻了。
 
-在安装hexo之前，您需要安装nodejs和git
+于是我就想魔改一下，于是我就看到了 [Butterfly主题美化教程](https://butterfly.zhheo.com/) 里面有魔改的主题让我非常喜欢就是
 
-#### 1.下载nodejs
+[张洪Heo](https://blog.zhheo.com/)刚开始以为需要动手改没想到竟然没有教程。就当我想放弃的时候，却发现有人出了主题😀 [Hexo-Theme-Acrylic-Next](https://github.com/hexo-theme-Acrylic/Hexo-Theme-Acrylic-Next)
 
-点击 [nodejs下载](https://nodejs.org/en/)，下载好后双击打开，默认一路next。
+由于主题还年轻，所以支持东西不多，但能用就行！于是我就安装了
 
-#### 2.下载Git
+前面说了我只能用手机，所以只能用手机上传到GitHub上还好提前弄了自动部署所以不需要电脑也可以用😀
 
-点击 [Git下载](https://git-scm.com/download/win)，下载好后双击打开，也是默认一路next。
+## 主题的配置
 
-## 检查安装的Node.js（内置npm） 和 Git 是否安装成功
+前面说了主题还年轻，所以支持的东西也就少
 
-步骤1：
-找到我们的 Git Bash 并打开，一般都在任务菜单栏里
+### 评论
 
-步骤2：
-在命令行中输入： `node -v`和`npm -v`然后回车（Enter）
+目前只支持twikoo所以只能用回曾经抛弃的评论系统
 
-![31Cbx.png](https://i.imgtg.com/2023/04/29/31Cbx.png)
+![Oz0Cna.png](https://i.imgtg.com/2023/07/15/Oz0Cna.png)
 
-如果您的电脑中已经安装上述必备程序，那么恭喜您！接下来只需要使用 npm 即可完成 Hexo 的安装。
+### right 配置
 
-## 安装Hexo
-
-先创建一个文件夹放置hexo文件
-
-右键点击Git Bash，输入以下命令：
-
-```
-#安装hexo框架
-npm install -g hexo-cli
-#查看hexo框架版本
-hexo -v
+```right:
+travellings: true   #开往
+random: true        #随机前往一个博客
+console: true       #控制台
 ```
 
-安装成功后，会显示如下图样式
-
-![37qQv.png](https://i.imgtg.com/2023/04/29/37qQv.png)
-
-然后输入 `hexo init` 初始化此文件夹（有时候会抽风多输几遍 `hexo init`就行）
-
-初始化成功的时候：（会在文件夹中生成很多文件，请不要删除）
-
-![375Cq.png](https://i.imgtg.com/2023/04/29/375Cq.png)
-
-![37Tic.png](https://i.imgtg.com/2023/04/29/37Tic.png)
-
-此时，可以输入 `hexo server` 生成html静态网页文件
-
-生成成功样式：（之后就可以通过浏览器访问 [http://localhost:4000/](http://localhost:4000/) 访问网页啦，按Ctrl+C可以关闭网页）
-
-访问的网页样子是这样的：
-
-![3NJT1.png](https://i.imgtg.com/2023/04/29/3NJT1.png)
-
-## 上传Github
-
-首先你要注册一个Github账号，然后创建一个仓库
-
-创建一个名为
+```site:
+site:
+  name:                   # 左上角显示内容
+    class:  text          #i_class/text/img 
+    custom: 洵珊       #自定义内容
+  siteIcon: /img/avatar.webp # 网页icon
+  icon: /img/avatar.webp     # 页脚的icon、加载动画默认的icon
+  icp:                       # ICP
 
 ```
-xxxx.github.io
-```
 
-用于访问你的博客（把xxxx换成你的你github的名字就行了）例如
-
-![3eGGY.png](https://i.imgtg.com/2023/04/29/3eGGY.png)
-
-你要生成github秘钥
-
-1.生成 Personal access tokens
-
-进入 Developer settings：
-
-![3e0iq.png](https://i.imgtg.com/2023/04/29/3e0iq.png)
-
-生成 token，自己设置「过期时间」和「访问权限」，我是设置成了「永不过期」并开启了所有「访问权限」：
-
-![3ectc.jpg](https://i.imgtg.com/2023/04/29/3ectc.jpg)
-
-先把 token 复制一份留着，建议备份，以备下次使用，（本文后面也需要）
-
-回到hexo文件里的Git Bash
-
-1. 首先安装上传插件,输入以下命令
-
-```
-npm install --save hexo-deployer-git
-```
-
-2. 配置 文件夹下\_config.yml文件
-
-在文件末尾，替换为以下代码，并需要你刚才备份的秘钥
-
-```
-# Deployment
-## Docs: https://hexo.io/docs/one-command-deployment
-deploy:
-  type: git 
-  repository: https://<github生成的TOKEN>@github.com/你的github名/你的仓库名.git 
-  branch: main
-```
-
-保存成功后，然后依次输入hexo上传三件套
-
-```
-hexo clean 
-hexo generate
-hexo d
-```
-
-上传成功后会出
-
-![3ed2r.png](https://i.imgtg.com/2023/04/29/3ed2r.png)
-
-github中也会出现文件
-
-## 常见问题
-
-1.为什么会出现两个main？
-
-答：我也不知道，在项目中点击Settings。在里面找到Default branch
-
-![3eVbM.png](https://i.imgtg.com/2023/04/29/3eVbM.png)
-
-选择第二个最后选择Update就行了
-
-这就是本期的所有内容了🙂
+目前就配置这么多了，到时候补上
