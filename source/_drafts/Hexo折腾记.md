@@ -10,7 +10,7 @@ tags:
 - 闲聊
 title: Hexo折腾记
 top_img : https://i.imgtg.com/2023/07/13/Ozyy1G.webp
-updated: 2023-7-16T10:22:35.552+8:0
+updated: 2023-7-16T10:48:52.379+8:0
 ---
 ## 前言
 
@@ -39,3 +39,20 @@ updated: 2023-7-16T10:22:35.552+8:0
 ![Oz0Cna.png](https://i.imgtg.com/2023/07/15/Oz0Cna.png)
 
 ### right 配置
+
+```right:
+travellings: true   #开往
+random: true        #随机前往一个博客
+console: true       #控制台
+```
+
+```site:
+site:
+  name:                   # 左上角显示内容
+    class:  text          #i_class/text/img 
+    custom: 洵珊       #自定义内容
+  siteIcon: /img/avatar.webp # 网页icon
+  icon: /img/avatar.webp     # 页脚的icon、加载动画默认的icon
+  icp:                       # ICP
+
+```
