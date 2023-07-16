@@ -37,3 +37,5 @@ updated: 2023-7-16T10:22:35.552+8:0
 目前只支持twikoo所以只能用回曾经抛弃的评论系统
 
 ![Oz0Cna.png](https://i.imgtg.com/2023/07/15/Oz0Cna.png)
+
+### right 配置
