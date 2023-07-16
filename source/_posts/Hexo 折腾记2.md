@@ -2,14 +2,14 @@
 abbrlink: ''
 categories:
 - - 折腾记
-cover: https://imgtg.com/image/3efV1
+cover: https://i.imgtg.com/2023/04/29/3efV1.png
 date: '2023-07-16T11:07:52.812280+08:00'
 tags:
 - 折腾
 - 教程
 title: Hexo折腾记
-top_img: https://imgtg.com/image/3efV1
-updated: 2023-7-16T11:13:55.869+8:0
+top_img: https://i.imgtg.com/2023/04/29/3efV1.png
+updated: 2023-7-16T12:38:47.591+8:0
 ---
 ## 前言
 
