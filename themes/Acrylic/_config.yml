@@ -23,7 +23,8 @@ menu: #左侧应用菜单栏内的内容
     我的: #一级分类
         博客: #链接名称
             icon: /img/avatar.webp #链接图片
-            url: / #链接Url      
+            url: / #链接Url
+ menu:            
     文库:
        url: false
        child:
