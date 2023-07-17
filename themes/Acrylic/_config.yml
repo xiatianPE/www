@@ -27,9 +27,9 @@ nav:
             url: /
 # 导航栏内容
   menu:
-    # 文库:
-    #   url: false
-    #   child:
+      文库:
+        url: false
+        child:
     #     文章列表:
     #       url: /archives/
     #       icon: fas fa-box-archive
