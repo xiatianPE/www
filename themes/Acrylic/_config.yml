@@ -21,10 +21,10 @@ nav:
   left:
     enable: true
     menu:
-     #   我的:
-     #     博客:
-     #       icon: /img/avatar.webp
-     #       url: /
+        我的:
+          博客:
+            icon: /img/avatar.webp
+            url: /
 # 导航栏内容
   menu:
     # 文库:
@@ -170,7 +170,7 @@ aside:
     uv: false
     updatetime: false
     runtimeenable: true
-    runtime: '2021-12-12 00:00:00'
+    runtime: '2023-05-12 00:00:00'
 
 # 页脚
 footer:
@@ -265,8 +265,8 @@ hightlight:
 
 # 加载动画
 loading:
-  fullpage: false
-  pace: false
+  fullpage: true
+  pace: true
 
 # 第三方设置
 thirdparty:
