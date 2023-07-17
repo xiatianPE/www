@@ -15,46 +15,42 @@ site:
   icon: /img/avatar.webp     # 页脚的icon、加载动画默认的icon
   icp:                       # ICP
 
-# 导航栏
+#导航栏
 nav:
-left:
-enable: true
-menu: #左侧应用菜单栏内的内容
-    我的: #一级分类
-        博客: #链接名称
-            icon: /img/avatar.webp #链接图片
-            url: / #链接Url
-menu:  
-    文库: #一级菜单
-        url: false #是否关闭二级菜单。如果填写url链接可以跳转到其他地方，并关闭二级菜单。如果填写false则开启二级菜单
-        child: #二级菜单
-            文章列表: #链接名称
-                url: /archives/ #链接Url
-                icon: fas fa-box-archive #链接图标 使用fontawesome
-            全部分类:
-                url: /categories/
-                icon: fas fa-cube
-            全部标签:
-                url: /tags/
-                icon: fas fa-tags
-    友链:
-        url: false
-        child:
-            友链鱼塘:
-                url: /fcircle/
-                icon: fas fa-fish-fins
-            友情链接:
-                url: /links/
-                icon: fas fa-user-group
-            宝藏博主:
-                url: javascript:travelling() #主题特殊接口，为随机友链
-                icon: fas fa-bus
-    即刻:
-        url: /says #使用一级菜单，关闭二级菜单，点击后跳转到/says
-        child:
-    仓库:
-        url: https://github.com/rootlexblog
-        child:
+#导航栏左侧
+  left:
+    enable: true
+    menu:
+      # 我的:
+      #   博客:
+      #     icon: /img/avatar.webp
+      #     url: /
+# 导航栏内容
+  menu:
+    # 文库:
+    #   url: false
+    #   child:
+    #     文章列表:
+    #       url: /archives/
+    #       icon: fas fa-box-archive
+    #     全部分类:
+    #       url: /categories/
+    #       icon: fas fa-cube
+    #     全部标签:
+    #       url: /tags/
+    #       icon: fas fa-tags
+    # 友链:
+    #   url: false
+    #   child:
+    #     友链鱼塘:
+    #       url: /fcircle/
+    #       icon: fas fa-fish-fins
+    #     友情链接:
+    #       url: /links/
+    #       icon: fas fa-user-group
+    #     宝藏博主:
+    #       url: javascript:travelling()
+    #       icon: fas fa-bus
 
 
 right: # @todo 允许用户自定义
