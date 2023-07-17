@@ -21,10 +21,10 @@ nav:
   left:
     enable: true
     menu:
-      # 我的:
-      #   博客:
-      #     icon: /img/avatar.webp
-      #     url: /
+        我的:
+          博客:
+            icon: /img/avatar.webp
+            url: /
 # 导航栏内容
   menu:
     # 文库:
@@ -51,7 +51,6 @@ nav:
     #     宝藏博主:
     #       url: javascript:travelling()
     #       icon: fas fa-bus
-
 
 right: # @todo 允许用户自定义
     travellings: true   #开往
