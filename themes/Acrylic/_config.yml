@@ -30,9 +30,9 @@ nav:
       文库:
         url: false
         child:
-    #     文章列表:
-    #       url: /archives/
-    #       icon: fas fa-box-archive
+          文章列表:
+            url: /archives/
+            icon: fas fa-box-archive
     #     全部分类:
     #       url: /categories/
     #       icon: fas fa-cube
