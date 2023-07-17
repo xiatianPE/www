@@ -21,10 +21,10 @@ nav:
   left:
     enable: true
     menu:
-      # 我的:
-      #   博客:
-      #     icon: /img/avatar.webp
-      #     url: /
+        我的:
+          博客:
+            icon: /img/avatar.webp
+            url: /
 # 导航栏内容
   menu:
     # 文库:
