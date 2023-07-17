@@ -24,14 +24,13 @@ menu: #左侧应用菜单栏内的内容
         博客: #链接名称
             icon: /img/avatar.webp #链接图片
             url: / #链接Url
-
-menu:            
-    文库:
-        url: false
-        child:
-            文章列表:
-                url: /archives/
-                icon: fas fa-box-archive
+menu:  
+    文库: #一级菜单
+        url: false #是否关闭二级菜单。如果填写url链接可以跳转到其他地方，并关闭二级菜单。如果填写false则开启二级菜单
+        child: #二级菜单
+            文章列表: #链接名称
+                url: /archives/ #链接Url
+                icon: fas fa-box-archive #链接图标 使用fontawesome
             全部分类:
                 url: /categories/
                 icon: fas fa-cube
@@ -48,11 +47,15 @@ menu:
                 url: /links/
                 icon: fas fa-user-group
             宝藏博主:
-                url: javascript:travelling()
+                url: javascript:travelling() #主题特殊接口，为随机友链
                 icon: fas fa-bus
     即刻:
         url: /says #使用一级菜单，关闭二级菜单，点击后跳转到/says
         child:
+    仓库:
+        url: https://github.com/rootlexblog
+        child:
+
 
 right: # @todo 允许用户自定义
     travellings: true   #开往
