@@ -10,7 +10,7 @@
 site:
   name:                   # 左上角显示内容
     class:  text          #i_class/text/img 
-    custom: Acrylic       #自定义内容
+    custom: 洵珊       #自定义内容
   siteIcon: /img/avatar.webp # 网页icon
   icon: /img/avatar.webp     # 页脚的icon、加载动画默认的icon
   icp:                       # ICP
@@ -60,15 +60,15 @@ nav:
 
 # heo式顶部一大坨
 hometop:
-  bbtime: false
+  bbtime: true
   banner:
     enable: true
-    title: 分享设计<br>与科技生活
+    title: 分享<br>与科技生活
     url: blog.zhheo.com
     icon:
-      # AE:
-      #   img: /img/icon/ae.png
-      #   color: '#989bf8'
+        AE:
+          img: /img/icon/ae.png
+          color: '#989bf8'
       # Sketch:
       #   img: /img/icon/Sketch.png
       #   color: '#ffffff'
@@ -295,9 +295,9 @@ thirdparty:
 
 # 评论
 comment:
-  enable: false
+  enable: true
   twikoo:
-    envId:
+    envId: https://pian.zeabur.app
     # region: ap-shanghai
     path: window.location.pathname
 
