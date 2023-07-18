@@ -50,10 +50,10 @@ nav:
         child:
           即刻短说:
             url: /says/
-            icon: fas fa-solid
+            icon: fas fa-pen-to-square
           音乐:
             url: /music/
-            icon: fas fa-solid
+            icon: fas fa-music
 
 
 # 导航栏右侧快捷菜单
