@@ -246,7 +246,7 @@ post:
     local: false  
 
 # 关于界面
-about: false
+about: true
 
 # 404页面
 errorpage:
