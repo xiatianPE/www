@@ -46,7 +46,7 @@ nav:
             url: /fcircle/
             icon: fas fa-fish-fins
           友情链接:
-            url: /links/
+            url: /link/
             icon: fas fa-user-group
           宝藏博主:
             url: javascript:travelling()
