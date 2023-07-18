@@ -51,6 +51,10 @@ nav:
           即刻短说:
             url: /says/
             icon: fas fa-solid
+          音乐:
+            url: /music/
+            icon: fas fa-solid
+
 
 # 导航栏右侧快捷菜单
   right: # @todo 允许用户自定义
