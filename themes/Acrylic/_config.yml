@@ -42,15 +42,15 @@ nav:
       友链:
         url: false
         child:
-          友链鱼塘:
-            url: /fcircle/
-            icon: fas fa-fish-fins
           友情链接:
             url: /link/
             icon: fas fa-user-group
-          宝藏博主:
-            url: javascript:travelling()
-            icon: fas fa-bus
+      生活记事:
+        url: false
+        child:
+          即刻短说:
+            url: /says/
+            icon: fas fa-solid
 
 # 导航栏右侧快捷菜单
   right: # @todo 允许用户自定义
