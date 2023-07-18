@@ -277,15 +277,15 @@ loading:
 thirdparty:
   wordcount: false
   busuanzi: 
-    enable: false
-    usecomment: false #当评论系统开启时文章页面使用评论系统的统计数据
+    enable: true
+    usecomment: true #当评论系统开启时文章页面使用评论系统的统计数据
   search:
     algolia_search:
       enable: false
       # hits:
       #   per_page: 6
     local_search:
-      enable: false
+      enable: true
       preload: false
       CDN:
     
