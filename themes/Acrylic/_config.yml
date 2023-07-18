@@ -230,12 +230,12 @@ post:
     copyright: 原创
   meta:
     date: true
-    updated: false
+    updated: true
     locate: true
-    wordcount: false
+    wordcount: true
     readtime: false
-    pv: false
-    comment: false      
+    pv: true
+    comment: true      
   award:
     enable: false
     wechat:
