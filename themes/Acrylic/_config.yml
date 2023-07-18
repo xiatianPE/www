@@ -64,7 +64,7 @@ hometop:
   banner:
     enable: true
     title: 分享<br>与科技生活
-    url: blog.zhheo.com
+    url: xiatianpe.github.io
     icon:
         AE:
           img: /img/icon/ae.png
@@ -105,9 +105,9 @@ hometop:
 
   categoryGroup:
     G1:
-      name: Acrylic
+      name: 生活
       icon: fas fa-dove
-      url: /tags/Acrylic/
+      url: /tags/生活/
     G2:
       name: 热门文章
       icon: fas fa-burn
@@ -119,9 +119,9 @@ hometop:
 
   recommendList:
     sup: 置顶文章
-    title: 让Acrylic成为您的Hexo主题
-    url: /
-    img: /img/acrylic.png
+    title: hexo折腾记
+    url: /posts/495e9668/
+    img: https://i.imgtg.com/2023/04/29/3efV1.png
     color: '#006a73'
 
 # 个人卡片
