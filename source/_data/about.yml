@@ -28,24 +28,18 @@ personalities:
   linkText: "16personalities"
   typeLink: "https://www.16personalities.com/ch/infp-%E4%BA%BA%E6%A0%BC"
   typeName: "调停者"
-
-motto:
-  title: 座右铭
-  prefix: 海内存知己，
-  content: 天涯若比邻。
-
-game1:
-  title: "Minecraft"
-  icon: "fas fa-gamepad"
-  tips: "我的世界"
-  img: https://i.imgtg.com/2023/07/14/OzJcGi.png
-
+  myphoto: ""
+  
 
 oneself:
   location: '中国，湛江市'
+  birthYear: '2009'
+  university: '中学'
+  major: '学习'
+  occupation: '学生'
   map:
-    light: /images/about/map-light.png
-    dark: /images/about/map-dark.png
+    light: 
+    dark: 
 
 tj: 
   url: https://v6-widget.51.la/v6/K0yfsHaZHpjPWap0/quote.js
