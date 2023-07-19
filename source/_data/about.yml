@@ -68,11 +68,11 @@ careers:
   title: "生涯"
   subtitle: "无限进步"
   items:
-    - school: "DLPU"
-      major: "产品设计专业"
+    - school: ""
+      major: "电脑专业"
       color: "#357ef5"
-    - school: "ITSO"
-      major: "UI/产品经理"
+    - school: ""
+      major: "站长"
       color: "#eb372a"
   image: "https://p.zhheo.com/20236d5152f4058d0b8b29185c7b71bbd74a071902.png!cover"
   
