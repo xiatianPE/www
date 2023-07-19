@@ -54,6 +54,12 @@ nav:
           音乐:
             url: /music/
             icon: fas fa-music
+      我的:
+        url: false
+        child:
+          关于:
+            url: /about/
+            icon: fas fa-user
 
 
 # 导航栏右侧快捷菜单
