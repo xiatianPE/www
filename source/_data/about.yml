@@ -18,7 +18,33 @@ contentinfo:
   program: 高效的编程
   user_experience: 人性化的用户体验
 
-
+skills: false
+  title: 技能
+  subtitle: 开启创造力
+  tags:
+    - title: AfterEffect
+      icon: https://p.zhheo.com/20239df3f66615b532ce571eac6d14ff21cf072602.png!cover
+      color: "#989bf8"
+    - title: Sketch
+      icon: https://p.zhheo.com/2023e0ded7b724a39f12d59c3dc8fbdc7cbe074202.png!cover
+      color: "#ffffff"
+    - title: Docker
+      icon: https://p.zhheo.com/20231108a540b2862d26f8850172e4ea58ed075102.png!cover
+      color: "#57b6e6"
+    - title: Photoshop
+      icon: https://p.zhheo.com/2023e4058a91608ea41751c4f102b131f267075902.png!cover
+      color: "#4082c3"
+    - title: FinalCutPro
+      icon: https://p.zhheo.com/20233e777652412247dd57fd9b48cf997c01070702.png!cover
+      color: "#ffffff"
+    - title: Python
+      icon: https://p.zhheo.com/20235c0731cd4c0c95fc136a8db961fdf963071502.png!cover
+      color: "#ffffff"
+    - title: "Swift"
+      color: "#eb6840"
+      icon: "https://p.zhheo.com/202328bbee0b314297917b327df4a704db5c072402.png!cover"
+       
+      
 
 personalities:
   tips: "性格"
