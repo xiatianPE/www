@@ -18,21 +18,6 @@ contentinfo:
   program: 高效的编程
   user_experience: 人性化的用户体验
 
-skills:
-  title:
-  subtitle:
-  tags:
-careers:
-  title: "生涯"
-  subtitle: "无限进步"
-  items:
-    - school: "DLPU"
-      major: "产品设计专业"
-      color: "#357ef5"
-    - school: "ITSO"
-      major: "UI/产品经理"
-      color: "#eb372a"
-  image: "https://po0236d5152f4058d0b8b29185c7b71bbd74a071902.png!cover"
 
 
 personalities:
