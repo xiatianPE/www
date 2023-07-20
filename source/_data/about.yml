@@ -9,7 +9,7 @@ authorinfo:
     - "脚踏实地行动派 🏃"
     - "团队小组发动机 🧱"
     - "壮汉人狠话不多 💢"
-  image: "https://i.imgtg.com/2023/04/16/XgRaK.jpg"
+  image: "/img/avatar.webp"
 contentinfo:
   name: Acrylic
   title: 设计师、产品经理、独立开发者、博主
@@ -18,7 +18,7 @@ contentinfo:
   program: 高效的编程
   user_experience: 人性化的用户体验
 
-skills: false
+skills:
   title: 技能
   subtitle: 开启创造力
   tags:
@@ -43,6 +43,27 @@ skills: false
     - title: "Swift"
       color: "#eb6840"
       icon: "https://p.zhheo.com/202328bbee0b314297917b327df4a704db5c072402.png!cover"
+    - title: "Principle"      
+      color: "#8f55ba"
+      icon: "https://p.zhheo.com/2023f76570d2770c8e84801f7e107cd911b5073202.png!cover"
+    - title: "illustrator"
+      color: "#f29e39"
+      icon: "https://p.zhheo.com/20237359d71b45ab77829cee5972e36f8c30073902.png!cover"
+    - title: "CSS3"
+      color: "#2c51db"
+      icon: "https://p.zhheo.com/20237c548846044a20dad68a13c0f0e1502f074602.png!cover"
+    - title: "JS"
+      color: "#f7cb4f"
+      icon: "https://p.zhheo.com/2023786e7fc488f453d5fb2be760c96185c0075502.png!cover"
+    - title: "HTML"
+      color: "#e9572b"
+      icon: "https://p.zhheo.com/202372b4d760fd8a497d442140c295655426070302.png!cover"
+    - title: "Git"
+      color: "#df5b40"
+      icon: "https://p.zhheo.com/2023ffa5707c4e25b6beb3e6a3d286ede4c6071102.png!cover"
+    - title: "Rhino"
+      color: "#1f1f1f"
+      icon: "https://p.zhheo.com/20231ca53fa0b09a3ff1df89acd7515e9516173302.png!cover"
 careers:
   title: "生涯"
   subtitle: "无限进步"
@@ -143,4 +164,8 @@ rewardList:
   - name: "**才"
     money: 2
     time: 2021-02-17
+    vip: false
+  - name: ZEvan
+    money: 1
+    time: 2021-01-11
     vip: false
