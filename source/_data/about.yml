@@ -18,7 +18,7 @@ contentinfo:
   program: 高效的编程
   user_experience: 人性化的用户体验
 
-skills:
+skills: false
   title: 技能
   subtitle: 开启创造力
   tags:
