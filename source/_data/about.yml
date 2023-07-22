@@ -11,7 +11,7 @@ authorinfo:
     - "壮汉人狠话不多 💢"
   image: "/img/avatar.webp"
 contentinfo:
-  name: Acrylic
+  name: 洵珊
   title: 设计师、产品经理、独立开发者、博主
   product: 优秀的产品
   design: 出色的设计
@@ -19,8 +19,8 @@ contentinfo:
   user_experience: 人性化的用户体验
 
 skills: 
-title: false
-subtitle: 开启创造力
+title: 技能
+subtitle: 
 tags:
 careers:
   title: "生涯"
