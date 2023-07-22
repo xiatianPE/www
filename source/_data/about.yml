@@ -145,3 +145,27 @@ cause: <br>创建这个站的时候，想要就是能够有一个自己能够<b>
       这些就是创造这个小站的本意，<b>也是我分享生活的方式</b>。有幸能和你相遇在这里，相信我们能共同留下一段美好记忆。</p>
 
 rewardList:
+  - name: 思宁
+    money: 1
+    time: 2021-05-06
+    vip: false
+  - name: 小屁卡
+    money: 3
+    time: 2021-04-20
+    vip: false
+  - name: Adil
+    money: 50
+    time: 2021-03-25
+    vip: true
+  - name: ғᴏᴜʀʏ
+    money: 1
+    time: 2021-03-13
+    vip: false
+  - name: "**才"
+    money: 2
+    time: 2021-02-17
+    vip: false
+  - name: ZEvan
+    money: 1
+    time: 2021-01-11
+    vip: false
