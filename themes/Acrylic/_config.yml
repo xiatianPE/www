@@ -43,7 +43,7 @@ nav:
         url: false
         child:
           友情链接:
-            url: /link/
+            url: /links/
             icon: fas fa-user-group
       生活记事:
         url: false
