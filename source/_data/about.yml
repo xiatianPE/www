@@ -78,14 +78,14 @@ careers:
 
 personalities:
   tips: "性格"
-  title: "调停者"
+  title: "物流师"
   color: "#56a178"
-  type: "INFP-T"
-  image: "/img/avatar.webp"
+  type: "ISTJ-T"
+  image: "https://i.imgtg.com/2023/07/24/Oh0HgC.jpg"
   link: "https://www.16personalities.com/"
   linkText: "16personalities"
-  typeLink: "https://www.16personalities.com/ch/infp-%E4%BA%BA%E6%A0%BC"
-  typeName: "调停者"
+  typeLink: "https://www.16personalities.com/ch/istj-%E4%BA%BA%E6%A0%BC"
+  typeName: "物流师"
   myphoto: ""
 
 motto:
