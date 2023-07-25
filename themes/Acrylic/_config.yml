@@ -10,7 +10,7 @@
 site:
   name:                   # 左上角显示内容
     class:  text          #i_class/text/img 
-    custom: 洵珊       #自定义内容
+    custom: Acrylic       #自定义内容
   siteIcon: /img/avatar.webp # 网页icon
   icon: /img/avatar.webp     # 页脚的icon、加载动画默认的icon
   icp:                       # ICP
@@ -21,46 +21,36 @@ nav:
   left:
     enable: true
     menu:
-        我的:
-          博客:
-            icon: /img/avatar.webp
-            url: /
+      # 我的:
+      #   博客:
+      #     icon: /img/avatar.webp
+      #     url: /
 # 导航栏内容
   menu:
-      文库:
-        url: false
-        child:
-          文章列表:
-            url: /archives/
-            icon: fas fa-box-archive
-          全部分类:
-            url: /categories/
-            icon: fas fa-cube
-          全部标签:
-            url: /tags/
-            icon: fas fa-tags
-      友链:
-        url: false
-        child:
-          友情链接:
-            url: /links/
-            icon: fas fa-user-group
-      生活记事:
-        url: false
-        child:
-          即刻短说:
-            url: /says/
-            icon: fas fa-pen-to-square
-          音乐:
-            url: /music/
-            icon: fas fa-music
-      我的:
-        url: false
-        child:
-          关于:
-            url: /about/
-            icon: fas fa-user
-
+    # 文库:
+    #   url: false
+    #   child:
+    #     文章列表:
+    #       url: /archives/
+    #       icon: fas fa-box-archive
+    #     全部分类:
+    #       url: /categories/
+    #       icon: fas fa-cube
+    #     全部标签:
+    #       url: /tags/
+    #       icon: fas fa-tags
+    # 友链:
+    #   url: false
+    #   child:
+    #     友链鱼塘:
+    #       url: /fcircle/
+    #       icon: fas fa-fish-fins
+    #     友情链接:
+    #       url: /links/
+    #       icon: fas fa-user-group
+    #     宝藏博主:
+    #       url: javascript:travelling()
+    #       icon: fas fa-bus
 
 # 导航栏右侧快捷菜单
   right: # @todo 允许用户自定义
@@ -70,54 +60,54 @@ nav:
 
 # heo式顶部一大坨
 hometop:
-  bbtime: true
+  bbtime: false
   banner:
     enable: true
-    title: 分享<br>与科技生活
-    url: xiatianpe.github.io
+    title: 分享设计<br>与科技生活
+    url: blog.zhheo.com
     icon:
-        AE:
-          img: /img/icon/ae.png
-          color: '#989bf8'
-        Sketch:
-          img: /img/icon/Sketch.png
-          color: '#ffffff'
-        Docker:
-          img: /img/icon/docker.png
-          color: '#57b6e6'
-        ps:
-          img: /img/icon/ps.png
-          color: '#4082c3'
-        FinalCutPro:
-          img: /img/icon/FinalCutPro.png
-          color: '#ffffff'
-        Python:
-          img: /img/icon/Python.png
-          color: '#ffffff'
-        Swift:
-          img: /img/icon/Swift.png
-          color: '#eb6840'
-        Principle:
-          img: /img/icon/Principle.png
-          color: '#8f55ba'
-        illustrator:
-          img: /img/icon/illustrator.png
-          color: '#f29e39'
-        CSS3:
-          img: /img/icon/CSS3.png
-          color: '#2c51db'
-        JS:
-          img: /img/icon/JS.png
-          color: '#f7cb4f'
-        Git:
-          img: /img/icon/git.png
-          color: '#df5b40'
+      # AE:
+      #   img: /img/icon/ae.png
+      #   color: '#989bf8'
+      # Sketch:
+      #   img: /img/icon/Sketch.png
+      #   color: '#ffffff'
+      # Docker:
+      #   img: /img/icon/docker.png
+      #   color: '#57b6e6'
+      # ps:
+      #   img: /img/icon/ps.png
+      #   color: '#4082c3'
+      # FinalCutPro:
+      #   img: /img/icon/FinalCutPro.png
+      #   color: '#ffffff'
+      # Python:
+      #   img: /img/icon/Python.png
+      #   color: '#ffffff'
+      # Swift:
+      #   img: /img/icon/Swift.png
+      #   color: '#eb6840'
+      # Principle:
+      #   img: /img/icon/Principle.png
+      #   color: '#8f55ba'
+      # illustrator:
+      #   img: /img/icon/illustrator.png
+      #   color: '#f29e39'
+      # CSS3:
+      #   img: /img/icon/CSS3.png
+      #   color: '#2c51db'
+      # JS:
+      #   img: /img/icon/JS.png
+      #   color: '#f7cb4f'
+      # Git:
+      #   img: /img/icon/git.png
+      #   color: '#df5b40'
 
   categoryGroup:
     G1:
-      name: 生活
+      name: Acrylic
       icon: fas fa-dove
-      url: /tags/生活/
+      url: /tags/Acrylic/
     G2:
       name: 热门文章
       icon: fas fa-burn
@@ -129,9 +119,9 @@ hometop:
 
   recommendList:
     sup: 置顶文章
-    title: hexo折腾记
-    url: /posts/495e9668/
-    img: https://i.imgtg.com/2023/04/29/3efV1.png
+    title: 让Acrylic成为您的Hexo主题
+    url: /
+    img: /img/acrylic.png
     color: '#006a73'
 
 # 个人卡片
@@ -147,14 +137,15 @@ aside:
     Sticky: "newestPost,allInfo"
 
   card:
+    avatar: 
     content: 这有关于<b>开发</b>、<b>技术</b>相关的问题和看法，还有对于动漫的一些<b>杂评</b>。<br>相信你可以在这里找到对你有用的知识和教程。
     information:
-        Github:
-          icon: fa-brands fa-github
-          url: https://github.com/xiatianPE
-        Mail:
-          icon: fa-solid fa-envelope
-          url: mailto:somjipe22711@outlook.com
+      # Github:
+      #   icon: fa-brands fa-github
+      #   url: https://github.com/hexo-theme-Acrylic/Hexo-Theme-Acrylic-Next
+      # Mail:
+      #   icon: fa-solid fa-envelope
+      #   url: mailto:a@nalex.top
     button:
       text: 个人主页
       url: /
@@ -221,6 +212,16 @@ footer:
 
   randomlink: false
 
+  cdn:
+    url: 
+    desc: 
+  rss:
+    url: 
+  license:
+    url: https://creativecommons.org/licenses/by/4.0/
+    icon: fas fa-closed-captioning
+
+
 page:
   error: true
   tags: true
@@ -236,12 +237,12 @@ post:
     copyright: 原创
   meta:
     date: true
-    updated: true
+    updated: false
     locate: true
-    wordcount: true
+    wordcount: false
     readtime: false
-    pv: true
-    comment: true      
+    pv: false
+    comment: false      
   award:
     enable: false
     wechat:
@@ -252,7 +253,7 @@ post:
     local: false  
 
 # 关于界面
-about: true
+about: false
 
 # 404页面
 errorpage:
@@ -283,15 +284,15 @@ loading:
 thirdparty:
   wordcount: false
   busuanzi: 
-    enable: true
-    usecomment: true #当评论系统开启时文章页面使用评论系统的统计数据
+    enable: false
+    usecomment: false #当评论系统开启时文章页面使用评论系统的统计数据
   search:
     algolia_search:
       enable: false
       # hits:
       #   per_page: 6
     local_search:
-      enable: true
+      enable: false
       preload: false
       CDN:
     
@@ -305,9 +306,9 @@ thirdparty:
 
 # 评论
 comment:
-  enable: true
+  enable: false
   twikoo:
-    envId: https://pian.zeabur.app
+    envId:
     # region: ap-shanghai
     path: window.location.pathname
 
@@ -340,4 +341,4 @@ cdn:
     busuanzijs: https://npm.elemecdn.com/penndu@1.0.0/bsz.js
     aplayercss: https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/aplayer/1.10.1/APlayer.min.css
     aplayerjs: https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/aplayer/1.10.1/APlayer.min.js
-    metingjs: https://cdn1.tianli0.top/npm/meting@2.0.1/dist/Meting.min.js
+    metingjs: lib/meting.min.js
