@@ -103,12 +103,12 @@ game1:
   title: "Minecraft"
   icon: "fas fa-gamepad"
   tips: ""
-  img: https://i.imgtg.com/2023/07/14/OzJcGi.png!cover
+  img: https://i.imgtg.com/2023/07/14/OzJcGi.png
 game2:
   title: "光遇"
   icon: "fas fa-dice-d20"
   tips: "ID 1234"
-  img: https://i.imgtg.com/2023/07/26/OioeOr.jpg!cover
+  img: https://i.imgtg.com/2023/07/26/OioeOr.jpg
 likes:
   - type: like-technology
     tips: 关注偏好
