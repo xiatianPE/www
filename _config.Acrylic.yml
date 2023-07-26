@@ -181,7 +181,7 @@ aside:
     uv: false
     updatetime: false
     runtimeenable: true
-    runtime: '2021-12-12 00:00:00'
+    runtime: '2023-05-12 00:00:00'
 
 # 页脚
 footer:
@@ -243,8 +243,8 @@ post:
     pv: true
     comment: true      
   award:
-    enable: false
-    wechat:
+    enable: true
+    wechat: https://i.imgtg.com/2023/07/25/OhuHo1.jpg
     alipay:
     url:
   covercolor: #文章cover取色  
