@@ -90,8 +90,8 @@ personalities:
 
 motto:
   title: 座右铭
-  prefix: 荆棘之路，
-  content: 劈风斩浪。
+  prefix: 海内存知己，
+  content: 天涯若比邻。
 expertise:
   title: 特长
   prefix: 玄学流电脑疑难问题解决
@@ -100,10 +100,10 @@ expertise:
   level: MAX
 
 game1:
-  title: "英雄联盟"
+  title: "Minecraft"
   icon: "fas fa-gamepad"
-  tips: "比尔吉沃特"
-  img: https://p.zhheo.com/2023788ba3b8739936f844e64f483faacaf1085602.png!cover
+  tips: ""
+  img: https://i.imgtg.com/2023/07/14/OzJcGi.png!cover
 game2:
   title: "狼人杀"
   icon: "fas fa-dice-d20"
