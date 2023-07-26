@@ -105,10 +105,10 @@ game1:
   tips: ""
   img: https://i.imgtg.com/2023/07/14/OzJcGi.png!cover
 game2:
-  title: "狼人杀"
+  title: "光遇"
   icon: "fas fa-dice-d20"
   tips: "ID 1234"
-  img: https://p.zhheo.com/2023ff56a55649cf81989b9e1f4efc836907085102.png!cover
+  img: https://i.imgtg.com/2023/07/26/OioeOr.jpg!cover
 likes:
   - type: like-technology
     tips: 关注偏好
@@ -117,7 +117,7 @@ likes:
     img: https://p.zhheo.com/2023e6940f5f56f0004af2705c3586d1fdf5190802.png!cover
   - type: like-music
     tips: 音乐偏好
-    title: Hiphop、民谣、华语流行
+    title: 民谣、华语流行、欧美、DJ
     subtips: 
     img: https://bu.dusays.com/2023/03/12/640dc6bed6d2d.jpg
 
@@ -137,8 +137,6 @@ tj:
   img: https://bu.dusays.com/2023/03/12/640dc8c72f623.webp
 
 cause: <br>创建这个站的时候，想要就是能够有一个自己能够<b>积累知识、积累兴趣</b>的地方。和他人分享，会让这些成为积累和沉淀。如果能够帮助到更多的人，帮助更多人解决问题，那一定是非常棒的事情。
-      <br>
-      分享这件事我从很早就开始了，起初做的微信公众号，现在做的网站。因为我比较喜欢研究数码和软件，想要探究在互联网上的事物是如何被创造和发展。网络给我带来了非常多的知识和眼界，我也想力所能及的分享一些我生活的琐碎知识。
       <br>
       与大多数垂直类的技术博客不同，这里的种类会非常的繁杂，有<b>技能的教程干货</b>、有<b>生活上的吐槽和妙招</b>、有<b>话题上的思考和想法</b>。一般我研究什么、发现了什么都会分享在这里。
       <br>
