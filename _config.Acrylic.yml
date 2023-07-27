@@ -11,8 +11,8 @@ site:
   name:                   # 左上角显示内容
     class:  text          #i_class/text/img 
     custom: 洵珊       #自定义内容
-  siteIcon: /img/avatar.webp # 网页icon
-  icon: /img/avatar.webp     # 页脚的icon、加载动画默认的icon
+  siteIcon: https://i.imgtg.com/2023/04/16/Xg4ES.png # 网页icon
+  icon: https://i.imgtg.com/2023/04/16/Xg4ES.png     # 页脚的icon、加载动画默认的icon
   icp:                       # ICP
 
 # 导航栏
@@ -244,7 +244,7 @@ post:
     comment: true      
   award:
     enable: true
-    wechat: https://i.imgtg.com/2023/07/25/OhuHo1.jpg
+    wechat: https://i.imgtg.com/2023/07/26/Oio1vq.jpg
     alipay:
     url:
   covercolor: #文章cover取色  
@@ -276,12 +276,12 @@ hightlight:
 
 # 加载动画
 loading:
-  fullpage: false
-  pace: false
+  fullpage: true
+  pace: true
 
 # 第三方设置
 thirdparty:
-  wordcount: false
+  wordcount: true
   busuanzi: 
     enable: true
     usecomment: true #当评论系统开启时文章页面使用评论系统的统计数据
