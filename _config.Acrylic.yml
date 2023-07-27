@@ -187,19 +187,16 @@ aside:
 footer:
   information:
     left:
-      # Github:
-      #   icon: fa-brands fa-github
-      #   url: /
-      # Mail:
-      #   icon: fa-solid fa-envelope
-      #   url: /
+        Github:
+          icon: fa-brands fa-github
+          url: https://github.com/xiatianPE
+        Mail:
+          icon: fa-solid fa-envelope
+          url: mailto:somjipe22711@outlook.com
     right:
-      # 网易云:
-      #   icon: fa-solid fa-music
-      #   url: /
-      # bilibili:
-      #   icon: fa-brands fa-bilibili
-      #   url: /
+        bilibili:
+          icon: fa-brands fa-bilibili
+          url: https://b23.tv/QIAN4bO
 
   group:
     # 导航:
