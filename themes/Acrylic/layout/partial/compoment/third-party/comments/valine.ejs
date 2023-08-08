@@ -1,0 +1,21 @@
+% if (theme.comments.enable && theme.comments.valine.enable) { %>
+  <% if (theme.cdns && theme.cdns.comments.valine && theme.cdns.comments.valine.enable) { %>
+    <script async type="text/javascript" src='<%- theme.cdns.comments.valine.url %>' onload="loadValineSuc(this)"></script>
+  <% } else { %>
+    <script async type="text/javascript" src="/plugins/valine.min.js" onload="loadValineSuc(this)"></script>
+  <% } %>
+
+  <div id="vcomments"></div>
+
+  <script>
+    function loadValineSuc() {
+      new Valine({
+        el: '#vcomments',
+        appId: '<%- theme.comments.valine.appId %>',
+        appKey: '<%- theme.comments.valine.appKey %>',
+        placeholder: '<%- theme.comments.valine.placeholder %>',
+        avatar: '<%- theme.comments.valine.avatar %>',
+        lang: '<%= config.language %>'
+      })
+    }
+  </script>
