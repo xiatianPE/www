@@ -303,12 +303,17 @@ thirdparty:
 # 评论
 comment:
   enable: true
+  
   twikoo:
+    enable: true
     envId: https://pian.zeabur.app
     # region: ap-shanghai
     path: window.location.pathname
 
-
+   waline:
+     enable: false
+     serverURL:
+    
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 # 插入额外代码 如：统计，广告等
 extends: 
@@ -324,7 +329,8 @@ cdn:
     snackbarcss: /lib/snackbar.min.css
     heofont: https://cdn3.codesign.qq.com/icons/X2bzpZvRWkZkAaV/latest/iconfont.css
     qrcodejs: /lib/qrcode.min.js
-    walinejs: /js/waline.js
+    walinejs: https://unpkg.com/@waline/client@v2/dist/waline.mjs
+    walinecss: https://unpkg.com/@waline/client@v2/dist/waline.css
     twikoojs: https://cdn.staticfile.org/twikoo/1.6.10/twikoo.all.min.js
     instantsearch: https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/instantsearch.js/4.39.0/instantsearch.production.min.js
     algolia: https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/algoliasearch/4.12.1/algoliasearch-lite.umd.min.js
