@@ -305,14 +305,14 @@ comment:
   enable: true
   
   twikoo:
-    enable: true
+    enable: false
     envId: https://pian.zeabur.app
     # region: ap-shanghai
     path: window.location.pathname
 
   waline: 
-     enable: false
-     serverURL:
+     enable: true
+     serverURL: https://waline-1-i3854234.deta.app
     
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 # 插入额外代码 如：统计，广告等
