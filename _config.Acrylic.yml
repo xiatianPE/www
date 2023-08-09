@@ -245,8 +245,8 @@ post:
     alipay:
     url:
   covercolor: #文章cover取色  
-    enable: false
-    local: false  
+    enable: true
+    local: true  
 
 # 关于界面
 about: true
