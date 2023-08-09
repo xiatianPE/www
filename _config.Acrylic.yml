@@ -246,7 +246,7 @@ post:
     url:
   covercolor: #文章cover取色  
     enable: true
-    local: false
+    local: true
 
 # 关于界面
 about: true
