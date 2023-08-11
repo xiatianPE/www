@@ -194,6 +194,9 @@ footer:
           icon: fa-solid fa-envelope
           url: mailto:somjipe22711@outlook.com
     right:
+        网易云:
+          icon: fa-solid fa-music
+          url: https://y.music.163.com/m/user?id=1937476023
         bilibili:
           icon: fa-brands fa-bilibili
           url: https://b23.tv/QIAN4bO
