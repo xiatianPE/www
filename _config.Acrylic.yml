@@ -299,7 +299,7 @@ thirdparty:
     enable: true
     server: tencent
     id: 8644300710  
-    api: "https://music.startly.cn/?server=:server&type=:type&id=:id&auth=:auth&r=:r" #自定义api    
+    api: #"https://music.startly.cn/?server=:server&type=:type&id=:id&auth=:auth&r=:r" #自定义api    
   #中控台拓展
   consolePlus: true
 
