@@ -1,4 +1,4 @@
-% if (theme.comments.enable && theme.comments.valine.enable) { %>
+<% if (theme.comments.enable && theme.comments.valine.enable) { %>
   <% if (theme.cdns && theme.cdns.comments.valine && theme.cdns.comments.valine.enable) { %>
     <script async type="text/javascript" src='<%- theme.cdns.comments.valine.url %>' onload="loadValineSuc(this)"></script>
   <% } else { %>
@@ -19,3 +19,12 @@
       })
     }
   </script>
+<%
+  if (!theme.comments.valine.vempty_display) { %>
+    <style>
+      .comments-container .v .vempty {
+        display: none!important;
+      }
+    </style>
+<%  }
+  } %>
