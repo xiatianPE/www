@@ -309,7 +309,7 @@ comment:
   
   twikoo:
     enable: false
-    envId: https://pian.zeabur.app
+    envId: https://pin.zeabur.app
     # region: ap-shanghai
     path: window.location.pathname
 
