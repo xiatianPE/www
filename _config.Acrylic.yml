@@ -232,7 +232,7 @@ page:
 post:
   default:
     cover: /img/hello.jpg
-    locate: 北京
+    locate: 湛江
     copyright: 原创
   meta:
     date: true
@@ -299,24 +299,18 @@ thirdparty:
     enable: true
     server: tencent
     id: 8644300710  
-    api: #"https://music.startly.cn/?server=:server&type=:type&id=:id&auth=:auth&r=:r" #自定义api    
+    api: "https://music.startly.cn/?server=:server&type=:type&id=:id&auth=:auth&r=:r" #自定义api    
   #中控台拓展
   consolePlus: true
 
 # 评论
 comment:
   enable: true
-  
   twikoo:
-    enable: false
     envId: https://pin.zeabur.app
     # region: ap-shanghai
     path: window.location.pathname
 
-  waline: 
-     enable: true
-     serverURL: https://waline-1-i3854234.deta.app
-    
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 # 插入额外代码 如：统计，广告等
 extends: 
