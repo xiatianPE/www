@@ -133,6 +133,7 @@ hometop:
     url: /posts/495e9668/
     img: https://i.imgtg.com/2023/04/29/3efV1.png
     color: '#006a73'
+  recommend: true
 
 # 个人卡片
 aside:
