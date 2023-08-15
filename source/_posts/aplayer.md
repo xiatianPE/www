@@ -3,12 +3,15 @@ abbrlink: ''
 categories:
 - - 折腾记
 - - 教程
+cover: ''
 date: '2023-04-30 10:59:54'
+recommend: true
 tags:
 - 折腾
 - 教程
 title: aplayer音乐折腾记
-updated: Sun, 30 Apr 2023 03:42:19 GMT
+top_img: ''
+updated: 2023-8-15T19:25:36.184+8:0
 ---
 ## 前言
 
