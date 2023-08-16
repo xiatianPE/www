@@ -1,14 +1,12 @@
 div
   script(src=url_for(theme.asset.utils))
   script(src=url_for(theme.asset.main))
-
+  script(charset='utf-8' data-pjax src=url_for(theme.asset.blogex))
   if theme.translate.enable
-    script(src=url_for(theme.asset.translate))
+    script(src=url_for(theme.asset.translate) type="module")
 
-  if theme.medium_zoom
-    script(src=url_for(theme.asset.medium_zoom))
-  else if theme.fancybox
-    script(src=url_for(theme.asset.fancybox))
+  if theme.fancybox
+    script(src=url_for(theme.asset.fancybox_v4))
 
   if theme.instantpage
     script(src=url_for(theme.asset.instantpage), type='module')
@@ -19,47 +17,49 @@ div
   if theme.snackbar.enable
     script(src=url_for(theme.asset.snackbar))
 
-  if theme.pangu.enable
-    != partial("includes/third-party/pangu.pug", {}, { cache: true })
+  //- search
+  if theme.algolia_search.enable
+    script(src=url_for(theme.asset.algolia_search_v4))
+    script(src=url_for(theme.asset.algolia_js))
+    //- script(src=url_for(theme.asset.instantsearch_v4))
+  else if theme.local_search.enable
+    script(src=url_for(theme.asset.local_search))
+
+  if theme.loading.enable
+    != partial("includes/loading/loading-js", {}, { cache: true })
 
   .js-pjax
-    if needLoadCountJs
-      != partial("includes/third-party/card-post-count/index", {}, { cache: true })
+    if is_post()
+      script(src=url_for(theme.asset.themecolor_js))
 
-    if loadSubJs
-      include ./third-party/subtitle.pug
+    //- TianliGPT
+    include ./post/ai-info.pug
 
-    include ./third-party/math/index.pug
-
-    include ./third-party/abcjs/index.pug
-
+    include ./third-party/newest-comments/twikoo-comment.pug
     if commentsJsLoad
       include ./third-party/comments/js.pug
-
-  != partial("includes/third-party/prismjs", {}, { cache: true })
-
-  if theme.aside.enable && theme.newest_comments.enable
-    if theme.pjax.enable
-      != partial("includes/third-party/newest-comments/index", {}, { cache: true })
-    else if (!is_post() && page.aside !== false)
-      != partial("includes/third-party/newest-comments/index", {}, { cache: true })
+    if needLoadCountJs
+      !=partial('includes/third-party/card-post-count/index', {}, {cache: true})
 
   != fragment_cache('injectBottom', function(){return injectHtml(theme.inject.bottom)})
 
-  != partial("includes/third-party/effect", {}, { cache: true })
-
-  != partial("includes/third-party/chat/index", {}, { cache: true })
+  script(src=url_for(theme.asset.swiper))
+  script(type='text/javascript', src=url_for(theme.asset.waterfall))
 
   if theme.aplayerInject && theme.aplayerInject.enable
     if theme.pjax.enable || theme.aplayerInject.per_page
       include ./third-party/aplayer.pug
     else if page.aplayer
       include ./third-party/aplayer.pug
-
   if theme.pjax.enable
     != partial("includes/third-party/pjax", {}, { cache: true })
 
   if theme.busuanzi.site_uv || theme.busuanzi.site_pv || theme.busuanzi.page_pv
-    script(async data-pjax src= theme.asset.busuanzi || '//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js')
+    script(async data-pjax src=url_for(theme.asset.busuanzi))
 
-  !=partial('includes/third-party/search/index', {}, {cache: true})
+  script(src=url_for(theme.asset.qrcode))
+  script(src=url_for(theme.asset.rightmenu_js))
+  script(data-pjax src=url_for(theme.asset.random_js))
+  if theme.comments.commentBarrage && theme.twikoo.accessToken
+    script(data-pjax src=url_for(theme.asset.commentBarrage_js))
+  script(data-pjax src=url_for(theme.asset.swiper_bundle))
