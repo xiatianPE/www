@@ -127,7 +127,7 @@ memos:
 
 # 朋友圈fcircle (fcircle page)
 fcircle:
-  enable: true
+  enable: false
   descr: 实物装备推荐
   tip: 好物
   link: /posts/49736/
@@ -137,7 +137,7 @@ fcircle:
 
 # 装备equipment (equipment page)
 equipment:
-  enable: true
+  enable: false
   descr: 实物装备推荐
   tip: 跟 张洪Heo 一起享受科技带来的乐趣
   link: /posts/49736/
