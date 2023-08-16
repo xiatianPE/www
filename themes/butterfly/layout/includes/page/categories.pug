@@ -1,1 +1,3 @@
-.category-lists!= list_categories()
+h1.page-title(style='display: inline;')=_p('page.category')
+.category-lists
+  .tag-cloud-list.is-center!=pagecloud({source: site.categories})
