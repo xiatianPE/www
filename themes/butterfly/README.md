@@ -1,113 +1,75 @@
 <div align="right">
-  Language:
-  🇺🇸
-  <a title="Chinese" href="/README_CN.md">🇨🇳</a>
+  语言:
+  中文
 </div>
 
-# hexo-theme-butterfly
+# hexo-theme-Acrylic
 
-![master version](https://img.shields.io/github/package-json/v/jerryc127/hexo-theme-butterfly/master?color=%231ab1ad&label=master)
-![master version](https://img.shields.io/github/package-json/v/jerryc127/hexo-theme-butterfly/dev?label=dev)
-![https://img.shields.io/npm/v/hexo-theme-butterfly?color=%09%23bf00ff](https://img.shields.io/npm/v/hexo-theme-butterfly?color=%09%23bf00ff)
-![hexo version](https://img.shields.io/badge/hexo-5.3.0+-0e83c)
-![license](https://img.shields.io/github/license/jerryc127/hexo-theme-butterfly?color=FF5531)
+![封面图](https://raw.githubusercontent.com/hexo-theme-Acrylic/JS-Acrylic/main/hhis5p.webp)
 
-![](https://cdn.jsdelivr.net/gh/jerryc127/CDN@m2/img/theme-butterfly-readme.png)
+主题预览:  🤟[Heo](https://blog.zhheo.com/) ||  👍 [满心](https://blog.lovelu.top/)  ||  🤞 [Jayhrn](https://blog.jayhrn.com/)
 
-Demo: 👍 [Butterfly](https://butterfly.js.org/)  ||   🤞 [CrazyWong](https://crazywong.com/)
+文档: 📖 [https://acrylic.zhheo.com/](https://acrylic.zhheo.com/)
 
-Docs: 📖 [Butterfly Docs](https://butterfly.js.org/posts/21cfbf15/)
+一款基于[hexo-theme-butterfly](https://github.com/jerryc127/hexo-theme-butterfly)修改的主题
 
-Based on [hexo-theme-melody](https://github.com/Molunerfinn/hexo-theme-melody) theme.
+## 💻 安裝
 
-## 💻 Installation
+### Git 安裝
 
-### GIT
-
-> If you are in Mainland China, you can download in [Gitee](https://gitee.com/immyw/hexo-theme-butterfly.git)
-
-Stable branch [recommend]:
-
-```
-git clone -b master https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly
-```
-
-Dev branch:
-
-```
-git clone -b dev https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly
-```
-
-### NPM
-
-> It supports Hexo 5.0.0 or later
-
-In Hexo site root directory 
+在博客根目录里安装最新版【推荐】
 
 ```powershell
-npm i hexo-theme-butterfly
+git clone -b dev https://github.com/hexo-theme-Acrylic/hexo-theme-Acrylic.git themes/Acrylic
 ```
 
-## ⚙ Configuration
+### npm 安裝
 
- Set theme in the hexo work folder's root config file `_config.yml`: 
+暂不支持，因为我不会
 
-> theme: butterfly
+## ⚙ 应用主题
 
- If you don't have pug & stylus renderer, try this: 
+修改hexo配置文件`_config.yml`，把主题改为`Acrylic`
 
-> npm install hexo-renderer-pug hexo-renderer-stylus
+```
+theme: Acrylic
+```
 
-## 🎉 Features
+>如果你没有pug以及stylus的渲染器，请下载安装： ```npm install hexo-renderer-pug hexo-renderer-stylus --save```
 
-- [x] Card UI Design
-- [X] Support sub-menu
-- [x] Two Column designs
-- [x] Responsive Web Design
-- [x] Dark Mode
-- [x] Pjax
-- [x] Read Mode
-- [x] Conversion between Traditional and Simplified Chinese
-- [X] TOC catalog is available for both computers and mobile phones
-- [X] Color themes (darker/pale night/light/ocean/mac/mac light), support custom colors
-- [X] Code Blocks (Display code language/close or expand Code Blocks/Copy Button/word wrap)
-- [X] Disable copy/Add a Copyright Notice to the Copied Text
-- [X] Search (Algolia SearchZ/Local Search)
-- [x] Mathjax and Katex
-- [x] Built-in 404 page
-- [x] WordCount
-- [x] Related articles
-- [x] Displays outdated notice for a post
-- [x] Share (AddThis/Sharejs/Addtoany)
-- [X] Comment (Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42/artalk)
-- [x] Multiple Comment System Support
-- [x] Online Chats (Chatra/Tidio/Daovoice/Crisp/messenger)
-- [x] Web analytics
-- [x] Google AdSense
-- [x] Webmaster Verification
-- [x] Change website colour scheme
-- [x] Typewriter Effect: activate_power_mode
-- [x] Background effects (Canvas ribbon/canvas_ribbon_piao/canvas_nest)
-- [x] Mouse click effects (Fireworks/Heart/Text)
-- [x] Preloader/Loading Animation/pace.js
-- [x] Busuanzi visitor counter
-- [x] Medium Zoom/Fancybox
-- [x] Mermaid
-- [x] Justified Gallery
-- [x] Lazyload images
-- [x] Instantpage/Pangu/Snackbar notification toast/PWA......
+## ✨ 贡献者
+> 欢迎你加入我们Acrylic组织
 
-## ✨ Contributors
+### 参与开发
+[@Marcus](https://github.com/MarcusYYDS)
+[@Shine Yu](https://github.com/ShineYull)
+[@rootlex](https://github.com/rootlexblog)
+[@轻笑](https://github.com/qxchuckle)
+[@Leonus](https://github.com/Lea321)
+[@noionion](https://github.com/2X-ercha)
+[@安知鱼专座](https://github.com/anzhiyu-c)
+[@时贰姐姐](https://github.com/GC-ZF)
+### 服务器提供和测试
+[@Acozycotage](https://github.com/Acozycotage)
+### 相关帮助
+暂无
+### 主题设计
+[@张洪Heo](https://github.com/zhheo)
+### 域名提供
+[@张洪Heo](https://github.com/zhheo)
+[@Acozycotage](https://github.com/Acozycotage)
 
-<a href="https://github.com/jerryc127/hexo-theme-butterfly/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=jerryc127/hexo-theme-butterfly" />
-</a>
+## 开发进度
+50%
 
-## 📷 Screenshots
+## 更好的配置
+- macos/linux
+在博客根目录运行
+```bash
+cp -rf ./themes/Acrylic/_config.yml ./_config.Acrylic.yml
+```
+- windows
+复制```/themes/Acrylic/_config.yml```此文件到hexo根目录，并重命名为```_config.Acrylic.yml```
 
-![](https://cdn.jsdelivr.net/gh/jerryc127/CDN@m2/img/butterfly-readme-screenshots-1.jpg)
-![](https://cdn.jsdelivr.net/gh/jerryc127/CDN@m2/img/butterfly-readme-screenshots-2.jpg)
-![](https://cdn.jsdelivr.net/gh/jerryc127/CDN@m2/img/butterfly-readme-screenshots-3.jpg)
-![](https://cdn.jsdelivr.net/gh/jerryc127/CDN@m2/img/butterfly-readme-screenshots-4.jpg)
-![](https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/theme-butterfly-readme-homepage-1.png)
-![](https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/theme-butterfly-readme-homepage-2.png)
+## 仓库统计
+![仓库统计](https://repobeats.axiom.co/api/embed/d7b318f1bf6a566495cf126196194f6145ee63a6.svg "Repobeats analytics image")
