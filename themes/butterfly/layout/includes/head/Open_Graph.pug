@@ -1,14 +1,10 @@
-if theme.Open_Graph_meta.enable
-  -
-    const coverVal = page.cover_type === 'img' ? page.cover : theme.avatar.img
-    let ogOption = Object.assign({
-      type: is_post() ? 'article' : 'website',
-      image: coverVal ? full_url_for(coverVal) : '',
-      fb_admins: theme.facebook_comments.user_id || '',
-      fb_app_id: theme.facebook_comments.app_id || '',
-    }, theme.Open_Graph_meta.option)
-  -
-  != open_graph(ogOption)
-else
-  meta(name="description" content=page_description())
-
+- let contentType = is_post() ? 'article' : 'website'
+!=favicon_tag(theme.favicon || config.favicon)
+meta(property='og:image' content=pageimage)
+meta(property='og:type' content=contentType)
+meta(property='og:title' content=pageAuthor)
+meta(property='og:url' content=urlNoIndex())
+meta(property='og:site_name' content=pageAuthor)
+meta(property='og:description' content=pagedescr)
+meta(property='og:locale' content='zh_CN')
+link(rel="canonical" href=urlNoIndex())
