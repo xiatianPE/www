@@ -1,7 +1,8 @@
+const logger = require('hexo-log')()
+
 hexo.extend.filter.register('before_generate', () => {
   // Get first two digits of the Hexo version number
   const hexoVer = hexo.version.replace(/(^.*\..*)\..*/, '$1')
-  const logger = hexo.log
 
   if (hexoVer < 5.3) {
     logger.error('Please update Hexo to V5.3.0 or higher!')
@@ -11,11 +12,9 @@ hexo.extend.filter.register('before_generate', () => {
 
   if (hexo.locals.get) {
     const data = hexo.locals.get('data')
-    if (data && data.butterfly) {
-      logger.error(
-        " 'butterfly.yml' is deprecated. Please use '_config.butterfly.yml' "
-      )
-      logger.error(" 'butterfly.yml' 已經棄用，請使用 '_config.butterfly.yml' ")
+    if (data && data.Acrylic) {
+      logger.error(" 'Acrylic.yml' is deprecated. Please use '_config.Acrylic.yml' ")
+      logger.error(" 'Acrylic.yml' 已經棄用，請使用 '_config.Acrylic.yml' ")
       process.exit(-1)
     }
   }
