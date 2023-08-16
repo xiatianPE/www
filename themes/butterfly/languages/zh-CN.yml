@@ -1,17 +1,13 @@
-footer:
-  framework: 框架
-  theme: 主题
-
 copy:
   success: 复制成功
   error: 复制错误
   noSupport: 浏览器不支持
 
 page:
-  articles: 文章总览
+  articles: 文章
   tag: 标签
   category: 分类
-  archives: 归档
+  archives: 文章
 
 card_post_count: 条评论
 
@@ -44,9 +40,8 @@ search:
     hits_stats: '找到 ${hits} 条结果，用时 ${time} 毫秒'
 
   local_search:
-    input_placeholder: 搜索文章
+    input_placeholder: 输入关键词快速查找
     hits_empty: '找不到您查询的内容：${query}'
-    hits_stats: '共找到 ${hits} 篇文章'
 
 pagination:
   prev: 上一篇
@@ -58,10 +53,10 @@ aside:
   articles: 文章
   tags: 标签
   categories: 分类
+  card_author: 作者信息
   card_announcement: 公告
   card_categories: 分类
   card_tags: 标签
-  card_archives: 归档
   card_recent_post: 最新文章
   card_webinfo:
     headline: 网站资讯
@@ -98,13 +93,13 @@ share: 分享
 rightside:
   readmode_title: 阅读模式
   translate_title: 简繁转换
-  night_mode_title: 浅色和深色模式转换
+  night_mode_title: 昼夜切换
   back_to_top: 回到顶部
   toc: 目录
   scroll_to_comment: 直达评论
   setting: 设置
-  aside: 单栏和双栏切换
-  chat: 聊天
+  ranklist: 打赏榜单
+  aside: 侧栏显隐
 
 copy_copyright:
   author: 作者
@@ -118,7 +113,5 @@ Snackbar:
   day_to_night: 你已切换为深色模式
   night_to_day: 你已切换为浅色模式
 
-loading: 加载中...
-load_more: 加载更多
 
 error404: 页面没有找到
