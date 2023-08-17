@@ -240,7 +240,7 @@ post:
     updated: true
     locate: true
     wordcount: true
-    readtime: false
+    readtime: true
     pv: true
     comment: true      
   award:
