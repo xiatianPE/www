@@ -305,20 +305,6 @@ thirdparty:
   consolePlus: true
 
 # 评论
-comment:
-    twikoo:
-      envId: 'https://pin.zeabur.app'
-      enable: true
-      autoInit: true
-    valine:
-      enable: false
-      appId: 'Your_Valine_App_ID'
-      appKey: 'Your_Valine_App_Key'
-    waline:
-      enable: false
-      serverURL: 'Your_Waline_Server_URL'
-
-# 全局的评论配置
 comments:
   # 默认的评论系统提供商
   default_provider: twikoo
