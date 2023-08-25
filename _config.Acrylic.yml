@@ -306,11 +306,18 @@ thirdparty:
 
 # 评论
 comment:
-  enable: true
-  twikoo:
-    envId: https://pin.zeabur.app
-    # region: ap-shanghai
-    path: window.location.pathname
+    twikoo:
+      envId: 'https://pin.zeabur.app'
+      enable: true
+      autoInit: true
+    valine:
+      enable: false
+      appId: 'Your_Valine_App_ID'
+      appKey: 'Your_Valine_App_Key'
+    waline:
+      enable: false
+      serverURL: 'Your_Waline_Server_URL'
+
 
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 # 插入额外代码 如：统计，广告等
