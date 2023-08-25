@@ -1,30 +1,55 @@
-<% if (theme.comments.enable && theme.comments.valine.enable) { %>
-  <% if (theme.cdns && theme.cdns.comments.valine && theme.cdns.comments.valine.enable) { %>
-    <script async type="text/javascript" src='<%- theme.cdns.comments.valine.url %>' onload="loadValineSuc(this)"></script>
-  <% } else { %>
-    <script async type="text/javascript" src="/plugins/valine.min.js" onload="loadValineSuc(this)"></script>
-  <% } %>
-
-  <div id="vcomments"></div>
-
-  <script>
-    function loadValineSuc() {
-      new Valine({
-        el: '#vcomments',
-        appId: '<%- theme.comments.valine.appId %>',
-        appKey: '<%- theme.comments.valine.appKey %>',
-        placeholder: '<%- theme.comments.valine.placeholder %>',
-        avatar: '<%- theme.comments.valine.avatar %>',
-        lang: '<%= config.language %>'
-      })
+<script>
+    async function initComment(){
+        var initOptions = Object.assign(
+            <%- JSON.stringify(theme.comment.twikoo || {}) %>,
+            {
+                el: '#comment',
+                onCommentLoaded: function() {
+                    GLOBALCONFIG.lightbox && acrylic.lightbox('#article-container img, #twikoo .tk-content img:not(.tk-owo-emotion)') 
+                }
+            }
+        )
+        await twikoo.init(initOptions)
+        <% if(theme.post.meta.comment && is_post()){ %>
+            var countOptions = Object.assign(
+                <%- JSON.stringify(theme.comment.twikoo || {}) %>,
+                { 
+                    urls: [window.location.pathname],
+                    includeReply: false
+                }
+            )
+            const res = await twikoo.getCommentsCount(countOptions)
+            try{
+                document.getElementById('twikoo-count').innerText = res[0].count
+            }catch (e) {
+                document.getElementById('twikoo-count').innerText = '加载错误'
+            }
+        <% } %>     
     }
-  </script>
-<%
-  if (!theme.comments.valine.vempty_display) { %>
-    <style>
-      .comments-container .v .vempty {
-        display: none!important;
-      }
-    </style>
-<%  }
-  } %>
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js"></script>
+<script>
+    // Valine 初始化
+    new Valine({
+        el: '#comment', // 替换为 Valine 评论区容器的选择器
+        appId: '<%= theme.comment.valine.appId %>', // 替换为您的 Valine App ID
+        appKey: '<%= theme.comment.valine.appKey %>', // 替换为您的 Valine App Key
+        notify: false, // 是否开启评论邮件提醒
+        verify: false, // 验证码服务，默认关闭，如需开启，参考 Valine 官方文档配置
+        avatar: 'mp', // 头像类型，默认 'mm'，可选项有 'mm'、'mp'，分别对应不同的头像生成方式
+    });
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/waline@1.0.10/dist/Waline.min.js"></script>
+<script>
+    // Waline 初始化
+    Waline.init({
+        el: '#comment', // 替换为 Waline 评论区容器的选择器
+        serverURL: '<%= theme.comment.waline.serverURL %>', // 替换为您的 Waline 服务器地址
+        emojiPath: 'https://cdn.jsdelivr.net/npm/waline@1.0.10/dist/emojis', // 替换为表情包路径
+        placeholder: '说点什么吧...',
+    });
+</script>
+
+
