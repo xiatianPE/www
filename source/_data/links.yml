@@ -148,7 +148,7 @@ links:
         tag: 技术
         rss: /atom.xml
 
-- class_name: 朋友们
+  - class_name: 朋友们
     descr: 一些志同道合的朋友
     type: item
     link_list:
