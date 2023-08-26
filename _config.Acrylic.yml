@@ -309,7 +309,7 @@ comments:
   # Waline/Twikoo/Artalk 推荐只选一个 首字母大写!
   use: Twikoo
   text: true # 在按钮旁边显示评论名称
-  lazyload: false
+  lazyload: true
 
     # Twikoo 评论系统配置
     twikoo:
