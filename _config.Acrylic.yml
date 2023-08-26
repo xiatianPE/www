@@ -310,25 +310,24 @@ comments:
   use: Twikoo
   text: true # 在按钮旁边显示评论名称
   lazyload: true
-
     # Twikoo 评论系统配置
-    twikoo:
-      appId: https://pin.zeabur.app # 替换为您的 Twikoo App ID
-      appSecret: Your_Twikoo_App_Secret  # 替换为您的 Twikoo App Secret
+  twikoo:
+    appId: https://pin.zeabur.app # 替换为您的 Twikoo App ID
+    appSecret: Your_Twikoo_App_Secret  # 替换为您的 Twikoo App Secret
 
     # Valine 评论系统配置
-    valine:
-      appId: Your_Valine_App_ID  # 替换为您的 Valine App ID
-      appKey: Your_Valine_App_Key  # 替换为您的 Valine App Key
-      notify: false
-      verify: false
-      avatar: 'mp'
+  valine:
+    appId: Your_Valine_App_ID  # 替换为您的 Valine App ID
+    appKey: Your_Valine_App_Key  # 替换为您的 Valine App Key
+    notify: false
+    verify: false
+    avatar: 'mp'
 
     # Waline 评论系统配置
-    waline:
-      serverURL: Your_Waline_Server_URL  # 替换为您的 Waline 服务器地址
-      emojiPath: 'https://cdn.jsdelivr.net/npm/waline@1.0.10/dist/emojis'  # Waline 表情包路径
-      placeholder: '说点什么吧...'  # 评论框的占位文本
+  waline:
+    serverURL: Your_Waline_Server_URL  # 替换为您的 Waline 服务器地址
+    emojiPath: 'https://cdn.jsdelivr.net/npm/waline@1.0.10/dist/emojis'  # Waline 表情包路径
+    placeholder: '说点什么吧...'  # 评论框的占位文本
 
 
 
