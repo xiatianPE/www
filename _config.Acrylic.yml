@@ -306,6 +306,7 @@ thirdparty:
 
 # 评论
 comment:
+  enable: true
   twikoo:
     enable: false
     envId: https://pin.zeabur.app
