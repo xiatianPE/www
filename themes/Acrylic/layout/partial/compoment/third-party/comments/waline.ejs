@@ -1,0 +1,37 @@
+<% const walineConfig = theme.comments.waline; %>
+
+<% if (walineConfig，.enable) { %>
+  <div id="waline-comments"></div>
+
+  <script>
+    function loadWalineSuc(func) {
+      func({
+        el: '#waline-comments',
+        path: location.pathname,
+        serverURL: '<%- walineConfig.serverURL %>',
+        emoji: false,
+        dark: 'auto',
+        requiredMeta: ['nick', 'mail'],
+        wordLimit: 150,
+        imageUploader: false,
+        search: false,
+        reaction: false,
+        pageSize: 30
+      })
+    }
+  </script>
+
+  <% if (theme.cdns && theme.cdns.comments.waline && theme.cdns.comments.waline.enable) { %>
+    <link rel="stylesheet" href="<%- theme.cdns.comments.waline.url.css %>">
+    <script type="module">
+      import { init } from '<%- theme.cdns.comments.waline.url.js %>'
+      loadWalineSuc(init)
+    </script>
+  <% } else { %>
+    <link rel="stylesheet" href="/plugins/waline.css">
+    <script type="module">
+      import { init } from '/plugins/waline.mjs'
+      loadWalineSuc(init)
+    </script>
+  <% } %>
+<% } %>
