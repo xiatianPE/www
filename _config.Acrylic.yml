@@ -324,7 +324,7 @@ comment:
     # Waline 评论系统配置
   waline:
     enable: true
-    serverURL: Your_Waline_Server_URL  # 替换为您的 Waline 服务器地址
+    serverURL: https://waline-1-i3854234.deta.app/  # 替换为您的 Waline 服务器地址
     emojiPath: 'https://cdn.jsdelivr.net/npm/waline@1.0.10/dist/emojis'  # Waline 表情包路径
     placeholder: '说点什么吧...'  # 评论框的占位文本
 
