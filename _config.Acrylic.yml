@@ -306,16 +306,8 @@ thirdparty:
 
 # 评论
 comment:
-  enable: true
-  waline:
-    serverURL: https://waline-1-i3854234.deta.app/ # Waline 服务器的地址
-    emojiPath:             # 是否启用表情图标
-    dark: 'auto'            # 是否根据系统设置使用深色模式
-    reaction: false         # 是否启用评论点赞功能
-    pageSize: 10             # 每页显示的评论数量
-  
+  enable: true 
   twikoo:
-    enable: false
     envId: https://pin.zeabur.app
     # region: ap-shanghai
     path: window.location.pathname
@@ -327,6 +319,13 @@ comment:
     notify: false
     verify: false
     avatar: 'mp'
+
+  waline:
+    serverURL: https://waline-1-i3854234.deta.app/ # Waline 服务器的地址
+    emojiPath:             # 是否启用表情图标
+    dark: 'auto'            # 是否根据系统设置使用深色模式
+    reaction: false         # 是否启用评论点赞功能
+    pageSize: 10  
 
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 # 插入额外代码 如：统计，广告等
