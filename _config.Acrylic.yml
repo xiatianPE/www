@@ -310,7 +310,7 @@ comment:
   waline:
     serverURL: https://waline-1-i3854234.deta.app/ # Waline 服务器的地址
     emojiPath:             # 是否启用表情图标
-    dark: auto            # 是否根据系统设置使用深色模式
+    dark: 'auto'            # 是否根据系统设置使用深色模式
     reaction: false         # 是否启用评论点赞功能
     pageSize: 10             # 每页显示的评论数量
   
@@ -327,16 +327,6 @@ comment:
     notify: false
     verify: false
     avatar: 'mp'
-
-    # Waline 评论系统配置
-  waline:
-    enable: true
-    serverURL: https://waline-1-i3854234.deta.app/  # 替换为您的 Waline 服务器地址
-    emojiPath: 'https://cdn.jsdelivr.net/npm/waline@1.0.10/dist/emojis'  # Waline 表情包路径
-    placeholder: '说点什么吧...'  # 评论框的占位文本
-
-
-
 
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 # 插入额外代码 如：统计，广告等
