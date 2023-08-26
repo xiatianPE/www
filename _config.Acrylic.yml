@@ -306,11 +306,11 @@ thirdparty:
 
 # 评论
 comments:
-  # 默认的评论系统提供商
-  default_provider: twikoo
+  # Waline/Twikoo/Artalk 推荐只选一个 首字母大写!
+  use: Twikoo
+  text: true # 在按钮旁边显示评论名称
+  lazyload: false
 
-  # 不同评论系统的配置选项
-  providers:
     # Twikoo 评论系统配置
     twikoo:
       appId: https://pin.zeabur.app # 替换为您的 Twikoo App ID
