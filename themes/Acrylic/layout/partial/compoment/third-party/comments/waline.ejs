@@ -1,23 +1,23 @@
-<% const walineConfig = theme.comments.waline; %>
+<% const walineConfig = theme.comment.waline; %>
 
 <% if (walineConfig，.enable) { %>
-  <div id="waline-comments"></div>
+  <div id="waline-comment"></div>
 
   <script>
     function loadWalineSuc(func) {
       func({
-        el: '#waline-comments',
+        el: '#comment',
         path: location.pathname,
-        serverURL: '<%- walineConfig.serverURL %>',
-        emojiPath: false,
-        dark: 'auto',
-        reaction: false,
-        pageSize: 10
+        serverURL: '<%= theme.comment.waline.serverURL %>',
+        emojiPath: <%= theme.comment.waline.emojiPath %>,
+        dark: '<%= theme.comment.waline.dark %>',
+        reaction: <%= theme.comment.waline.reaction %>,
+        pageSize: <%= theme.comment.waline.pageSize %>
       })
     }
   </script>
 
-  <% if (theme.cdns && theme.cdns.comments.waline && theme.cdns.comments.waline.enable) { %>
+  <% if (theme.cdns && theme.cdns.comment.waline && theme.cdns.comment.waline.enable) { %>
     <link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css">
     <script type="module">
       import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs'
