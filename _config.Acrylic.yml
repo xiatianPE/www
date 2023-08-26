@@ -307,12 +307,7 @@ thirdparty:
 # 评论
 comment:
   enable: true
-  waline:
-    serverURL: https://waline-1-i3854234.deta.app/  # 替换为您的 Waline 服务器地址
-    emojiPath: 'https://cdn.jsdelivr.net/npm/waline@1.0.10/dist/emojis'  # Waline 表情包路径
-    placeholder: '说点什么吧...'  # 评论框的占位文本
   twikoo:
-    enable: false
     envId: https://pin.zeabur.app
     # region: ap-shanghai
     path: window.location.pathname
