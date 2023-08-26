@@ -1,33 +1,34 @@
 <% const walineConfig = theme.comment.waline; %>
 
-<% if (walineConfig，.enable) { %>
+<% if (walineConfig.enable) { %>
   <div id="waline-comment"></div>
 
   <script>
     function loadWalineSuc(func) {
       func({
-        el: '#comment',
+        el: '#waline-comment', // 修正为正确的评论框元素选择器
         path: location.pathname,
         serverURL: '<%= theme.comment.waline.serverURL %>',
-        emojiPath: <%= theme.comment.waline.emojiPath %>,
+        emojiPath: '<%= theme.comment.waline.emojiPath %>', // 添加单引号包裹变量
         dark: '<%= theme.comment.waline.dark %>',
         reaction: <%= theme.comment.waline.reaction %>,
         pageSize: <%= theme.comment.waline.pageSize %>
-      })
+      });
     }
   </script>
 
   <% if (theme.cdns && theme.cdns.comment.waline && theme.cdns.comment.waline.enable) { %>
     <link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css">
     <script type="module">
-      import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs'
-      loadWalineSuc(init)
+      import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
+      loadWalineSuc(init);
     </script>
   <% } else { %>
     <link rel="stylesheet" href="/plugins/waline.css">
     <script type="module">
-      import { init } from '/plugins/waline.mjs'
-      loadWalineSuc(init)
+      import { init } from '/plugins/waline.mjs';
+      loadWalineSuc(init);
     </script>
   <% } %>
 <% } %>
+
