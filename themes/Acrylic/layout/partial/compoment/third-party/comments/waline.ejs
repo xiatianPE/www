@@ -9,22 +9,18 @@
         el: '#waline-comments',
         path: location.pathname,
         serverURL: '<%- walineConfig.serverURL %>',
-        emoji: false,
+        emojiPath: false,
         dark: 'auto',
-        requiredMeta: ['nick', 'mail'],
-        wordLimit: 150,
-        imageUploader: false,
-        search: false,
         reaction: false,
-        pageSize: 30
+        pageSize: 10
       })
     }
   </script>
 
   <% if (theme.cdns && theme.cdns.comments.waline && theme.cdns.comments.waline.enable) { %>
-    <link rel="stylesheet" href="<%- theme.cdns.comments.waline.url.css %>">
+    <link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css">
     <script type="module">
-      import { init } from '<%- theme.cdns.comments.waline.url.js %>'
+      import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs'
       loadWalineSuc(init)
     </script>
   <% } else { %>
