@@ -308,13 +308,14 @@ thirdparty:
 comment:
   enable: true
   waline:
-    serverURL: 'https://waline-1-i3854234.deta.app/' // Waline 服务器的地址
+    serverURL: https://waline-1-i3854234.deta.app/ // Waline 服务器的地址
     emojiPath:             // 是否启用表情图标
     dark: 'auto'            // 是否根据系统设置使用深色模式
     reaction: false         // 是否启用评论点赞功能
     pageSize: 10             // 每页显示的评论数量
   
   twikoo:
+    enable: false
     envId: https://pin.zeabur.app
     # region: ap-shanghai
     path: window.location.pathname
