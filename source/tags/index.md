@@ -1,5 +1,5 @@
 ---
-categories: 折腾
+orderby: random
 comments: false
 date: 2018-01-05 00:00:00
 title: 标签
