@@ -107,8 +107,8 @@ docsearch:
 
 # Local search
 local_search:
-  enable: false
-  preload: true
+  enable: true
+  preload: false
   CDN:
 
 # Math (数学)
@@ -138,7 +138,7 @@ favicon: https://ooo.0x0.ooo/2023/04/16/Xg4ES.png
 # Avatar (头像)
 avatar:
   img: https://ooo.0x0.ooo/2023/04/16/XgRaK.jpg
-  effect: true
+  effect: false
 
 # Disable all banner image
 disable_top_img: false
@@ -513,6 +513,8 @@ footer:
     linkList:
       - link: https://github.com/anzhiyu-c/hexo-theme-anzhiyu
         text: 主题
+      - link: /essay/
+        text: 即刻短文
       # - link: https://image.anheyu.com
       #   text: 图床
       # - link: https://beian.miit.gov.cn/
@@ -1167,7 +1169,7 @@ accesskey:
 
 # 友情链接顶部相关配置
 linkPageTop:
-  enable: true
+  enable: false
   title: 与数百名博主无限进步
   # 添加博主友链的评论自定义格式
   addFriendPlaceholder: "昵称（请勿包含博客等字样）：\n网站地址（要求博客地址，请勿提交个人主页）：\n头像图片url（请提供尽可能清晰的图片，我会上传到我自己的图床）：\n描述：\n站点截图（可选）：\n"
