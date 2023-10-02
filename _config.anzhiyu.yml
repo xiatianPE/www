@@ -63,8 +63,8 @@ copy:
 # formal:
 #   name: link || icon
 social:
-  # Github: https://github.com/xiatianPE || anzhiyu-icon-github
-  # BiliBili: https://m.bilibili.com/space/605065723 || anzhiyu-icon-bilibili
+    Github: https://github.com/xiatianPE || anzhiyu-icon-github
+    BiliBili: https://m.bilibili.com/space/605065723 || anzhiyu-icon-bilibili
 
 # 作者卡片 状态
 author_status:
