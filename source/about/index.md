@@ -1,7 +1,9 @@
 ---
 title: 关于
-date: 2020-07-22 22:06:17
-comment: false
+date: 2021-03-30 15:57:51
 aside: false
-type: about
+top_img: false
+background: "#f8f9fe"
+comments: false
+type: "about"
 ---
