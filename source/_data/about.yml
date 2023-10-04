@@ -31,8 +31,6 @@
     tips: 生涯
     title: 无限进步
     list:
-      - desc: EDU,网站专业
-        color: "#357ef5"
     img: https://bu.dusays.com/2023/04/21/644287166329b.png
   statistic:
     link: /archives
@@ -41,12 +39,12 @@
   map:
     title: 我现在住在
     StrengthenTitle: 中国，吴川市
-    background: https://bu.dusays.com/2023/07/05/64a4c61cb20ef.jpg
-    backgroundDark: https://bu.dusays.com/2023/07/05/64a4c63495ac5.jpg
+    background: https://ooo.0x0.ooo/2023/10/04/O1FuEa.jpg
+    backgroundDark: https://ooo.0x0.ooo/2023/10/04/O1FuEa.jpg
   selfInfo:
     selfInfoTips1: 生于
-    selfInfoContentYear: 2002
-    selfInfoTips2: 湖南信息学院
+    selfInfoContentYear: 2000
+    selfInfoTips2: 信息学院
     selfInfoContent2: 软件工程
     selfInfoTips3: 现在职业
     selfInfoContent3: 大三学生👨‍🎓
