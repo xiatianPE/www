@@ -51,22 +51,22 @@
   personalities:
     author_name: 物流师
     personality_type: ISTJ-A
-    photo_url: https://bu.dusays.com/2023/07/05/64a4c63495ac5.jpg
+    photo_url: https://ooo.0x0.ooo/2023/07/26/OioeOr.jpg
     personality_img: source/img/EDC37B59-055B-4590-BC07-6A4C4DE0B81A.jpeg
     name_url: https://www.16personalities.com/ch/istj-%E4%BA%BA%E6%A0%BC
   maxim:
     maxim_tips: 座右铭
-    maxim_top: 生活明朗，
-    maxim_bottom: 万物可爱。
+    maxim_top: 海内存知己，
+    maxim_bottom: 天涯若比邻。
   buff:
     buff_tips: 特长
-    buff_top: 脑回路新奇的 酸菜鱼
-    buff_bottom: 二次元指数 MAX
+    buff_top: 摆烂
+    buff_bottom: 除了摆烂还是摆烂
   game:
     game_tips: 爱好游戏
-    game_title: 原神
+    game_title: 光遇
     game_uid: "UID: 125766904"
-    game_bg: https://bu.dusays.com/2023/04/22/64433bf26e25d.webp
+    game_bg: https://ooo.0x0.ooo/2023/07/26/OioeOr.jpg
   comic:
     comic_tips: 爱好番剧
     comic_title: 追番
@@ -93,7 +93,7 @@
     like_bottom: 手机、电脑软硬件
   music:
     music_tips: 音乐偏好
-    music_title: 许嵩、民谣、华语流行
+    music_title: 欧美、DJ、华语流行
     music_bg: https://p2.music.126.net/Mrg1i7DwcwjWBvQPIMt_Mg==/79164837213438.jpg
     music_link: /music
   reward_list:
