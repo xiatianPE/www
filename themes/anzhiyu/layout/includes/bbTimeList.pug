@@ -3,7 +3,7 @@ if site.data.essay
     if i.home_essay
       #bbTimeList.bbTimeList.container
           i.heofont.icon-bblogo(onclick=`pjax.loadUrl("/essay/")`,title="即刻短文", aria-hidden="true")
-          #bbtalk.swiper-container.swiper-no-swiping.essay_bar_swiper_container(tabindex="1")
+          #bbtalk.swiper-container.swiper-no-swiping.essay_bar_swiper_container(tabindex="6")
             #bber-talk.swiper-wrapper(onclick=`pjax.loadUrl("/essay/")`)
               each i in site.data.essay
                 each item, index in i.essay_list
