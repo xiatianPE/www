@@ -1,25 +1,9 @@
 ---
-aplayer: true
-comment: false
-date: 2022-01-28 20:22:19
-title: 音乐
+title: 音乐馆
+date: 2021-04-24 21:41:30
 type: music
-updated: Sun, 30 Apr 2023 08:04:38 GMT
+aplayer: true
+top_img: false
+comments: false
+aside: false
 ---
-> ## 粤语
-
-<div id='demo1'></div>
-
-{% meting "2432467453" "netease" "playlist" %}
-
-> ## 治愈
-
-<div id='demo2'></div>
-
-{% meting "4860069866" "netease" "playlist" %}
-
-> ## 我的歌单
-
-<div id='demo3'></div>
-
-{% meting "8644300710" "netease" "playlist" %}
