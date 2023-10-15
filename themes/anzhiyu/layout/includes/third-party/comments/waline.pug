@@ -11,6 +11,7 @@ script.
         dark: 'html[data-theme="dark"]',
         path: window.location.pathname,
         emoji: 'html[data-theme="emoji"]',
+        reaction: !{lazyload ? false : reaction},
         comment: !{lazyload ? false : count},
       }, !{JSON.stringify(option)}))
     }
