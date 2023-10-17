@@ -9,7 +9,7 @@ menu:
       留言板: /comments/ || anzhiyu-icon-envelope
 
     我的:
-      音乐馆: /music/?id=8644300710&server=netease || anzhiyu-icon-music
+      音乐馆: /music/?id=8805343274&server=netease || anzhiyu-icon-music
       相册集: /album/ || anzhiyu-icon-images
 
     关于:
@@ -1098,7 +1098,7 @@ comment_barrage_config:
 nav_music:
   enable: true
   console_widescreen_music: false # 宽屏状态控制台显示音乐而不是标签 enable为true 控制台依然会显示
-  id: 8644300710
+  id: 8805343274
   server: netease
   all_playlist: https://y.qq.com/n/ryqq/playlist/8802438608
 
