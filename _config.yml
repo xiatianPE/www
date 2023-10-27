@@ -118,6 +118,7 @@ addlink:
 
 aplayer:
   meting: true
+  asset_inject: false
 
   # abbrlink 配置
 abbrlink:
