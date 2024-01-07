@@ -28,11 +28,11 @@ nav:
         - name: 博客
           link: https://monumental-rugelach-8f59e5.netlify.app/
           icon: /img/favicon.ico
-    - title: 项目
+    - title: 资源
       item:
-        - name: 图床
-          link: https://img.tg/
-          icon: https://img.tg/content/images/system/favicon_1577485637816_5e2bd1.png
+        - name: 路过图床
+          link: https://imgse.com/
+          icon: https://imgse.com/content/images/system/favicon_1587118523486_91617a.png
 
 # mourn （哀悼日，指定日期网站简单变灰，不包括滚动条）
 # 注意： 仅网站首页变灰，其他页面正常显示
