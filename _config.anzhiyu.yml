@@ -33,6 +33,9 @@ nav:
         - name: 路过图床
           link: https://imgse.com/
           icon: https://imgse.com/content/images/system/favicon_1587118523486_91617a.png
+        - name: freeok
+          link: https://freeok.vip/
+          icon: https://www.freeok.pro/mxtheme/images/favicon.png
 
 # mourn （哀悼日，指定日期网站简单变灰，不包括滚动条）
 # 注意： 仅网站首页变灰，其他页面正常显示
