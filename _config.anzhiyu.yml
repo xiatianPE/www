@@ -36,6 +36,9 @@ nav:
         - name: freeok
           link: https://freeok.vip/
           icon: https://www.freeok.pro/mxtheme/images/favicon.png
+        - name: 电影先生
+          link: https://dianyi.ng/
+          icon: https://cdn.dianyi.ng/static/picture/logo.png
 
 # mourn （哀悼日，指定日期网站简单变灰，不包括滚动条）
 # 注意： 仅网站首页变灰，其他页面正常显示
