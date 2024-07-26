@@ -43,11 +43,11 @@
     backgroundDark: https://ooo.0x0.ooo/2023/10/04/O1FIuS.jpg
   selfInfo:
     selfInfoTips1: 生于
-    selfInfoContentYear: 2000
-    selfInfoTips2: 信息学院
-    selfInfoContent2: 软件工程
-    selfInfoTips3: 现在职业
-    selfInfoContent3: 大三学生👨‍🎓
+    selfInfoContentYear: 2009
+    selfInfoTips2: 某中学
+    selfInfoContent2: 科代表
+    selfInfoTips3: 就读学生
+    selfInfoContent3: 中学牲
   personalities:
     author_name: 物流师
     personality_type: ISTJ-A
@@ -83,9 +83,9 @@
       - name: 鬼灭之刃
         href: https://www.bilibili.com/bangumi/media/md22718131/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
         cover: https://bu.dusays.com/2023/05/24/646db439856a0.webp
-      - name: JOJO的奇妙冒险 黄金之风
-        href: https://www.bilibili.com/bangumi/media/md135652/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
-        cover: https://bu.dusays.com/2023/05/30/64760e38d651a.webp
+      # - name: JOJO的奇妙冒险 黄金之风
+      #   href: https://www.bilibili.com/bangumi/media/md135652/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
+      #   cover: https://bu.dusays.com/2023/05/30/64760e38d651a.webp
   like:
     like_tips: 关注偏好
     like_title: 数码科技
